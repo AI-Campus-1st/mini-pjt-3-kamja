@@ -11,3 +11,4 @@ __pycache__/
 .streamlit/secrets.toml
 private/
 .streamlit
+streamlit 구현.pdf
