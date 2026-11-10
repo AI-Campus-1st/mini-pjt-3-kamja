@@ -1,0 +1,12 @@
+.env
+data/
+store/
+archive/
+mini_project3_guide.md
+project_plan.md
+__pycache__/
+.ipynb_checkpoints/
+.DS_Store
+.venv/
+.streamlit/secrets.toml
+private/

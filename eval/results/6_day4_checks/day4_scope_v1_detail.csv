@@ -1,0 +1,41 @@
+﻿id,type,scope,expect,top1_score,top1_id,q
+P01,predict,none,none,0.7082,yt_kJQW_2LHbjU#time#3,"나는 뷰티 마케터인데, AI 모델로 제품 발색 이미지를 만들면 어떨 것 같아?"
+P02,predict,none,none,0.6873,yt_Svtv24omXyw#time#1,식품 광고 영상 전체를 AI로 만들고 'AI를 활용하여 광고를 만들었다'고 명시하면 소비자 반응은 어떨까?
+P03,predict,none,none,0.6177,yt_kJQW_2LHbjU#time#15,나는 공공기관에서 일하는 사람이야. AI로 만든 광고 영상을 AI 표기 없이 내보내면 나올 소비자 반응을 예상해줘.
+P04,predict,none,none,0.6206,summary_case_02#common#0,교육 브랜드가 AI로 숏폼 영상을 통째로 만들면 어떨 것 같아?
+P05,predict,none,none,0.68,yt_5Ncuote9ADo#time#12,게임 IP를 활용한 뮤직비디오를 AI로 만들려고 해. AI 사용을 밝히고 공개하면 괜찮을까?
+P06,predict,none,none,0.6943,yt_kJQW_2LHbjU#time#15,광고 시에 AI를 활용한 영상이라고 처음부터 밝히면 보통 어떤 반응을 받아?
+P07,predict,none,none,0.6646,summary_case_11#common#0,식품 광고할 때 캠페인 영상의 일부 장면만 AI로 만들고 이를 밝히면 반응은?
+P08,predict,none,none,0.6771,yt_kJQW_2LHbjU#time#10,코스메틱 광고로 AI 모델을 쓴 사실을 알리지 않았다가 나중에 인정해도 될까?
+P09,predict,none,none,0.6483,yt_Wxrw5sy5_Hk#time#2,방송사가 프로그램 홍보 영상을 전부 AI로 만든다면 시청자 반응은 긍정적일까?
+P10,predict,none,none,0.7394,yt_Wxrw5sy5_Hk#time#1,보험사가 AI로 만든 광고 영상을 적나라하게 AI라고 밝히고 내보내면 소비자 반응이 어떨 것 같아?
+F01,fact_reaction,none,none,0.8041,yt_kJQW_2LHbjU#time#13,예전에 이니스프리 AI 광고 논란 있었잖아. 소비자는 주로 어떤 이유로 해당 광고를 비판했지?
+F02,fact_reaction,none,none,0.7256,summary_case_09#common#0,"불륜 콘셉트로 논란이 된 치킨 AI 광고 있었던 것 같은데, 그 광고가 뭐였는지 알려주고 그때 소비자 반응은 어땠는지 정리해줘"
+F03,fact_reaction,none,none,0.752,yt_5Ncuote9ADo#time#11,시프트업 스텔라 블레이드 AI 뮤직비디오에 대해서 한국 소비자는 어떤 반응을 보였어?
+F04,fact_reaction,none,none,0.7816,yt_R92Mba1mTX4#time#1,빙그레 '처음 입는 광복' 캠페인 반응은 어땠어?
+F05,fact_reaction,none,none,0.6455,summary_case_02#common#0,야나두 숏폼 중에서 흑인과 할머니가 나오는 숏폼 있잖아. 소비자들이 좋아했어?
+F06,fact_reaction,none,none,0.7118,summary_case_04#common#0,보험 쪽 광고에서 AI를 활용한 사례와 그에 따른 소비자 반응을 알려줘.
+C01,compare,none,none,0.68,summary_case_01#common#0,AI 사용을 밝힌 광고와 밝히지 않은 것 사이의 소비자 반응 차이는?
+C02,compare,none,none,0.6065,summary_case_01#common#0,뉴스로 소개된 광고 댓글과 브랜드 공식 영상 댓글의 차이가 있었어?
+C03,compare,none,none,0.6535,summary_case_09#common#0,같은 식품 업종인 빙그레와 페리카나 AI 광고는 반응이 어떻게 달랐어?
+C04,compare,none,none,0.6195,summary_case_04#common#0,일부만 AI로 만든 광고와 전체를 AI로 만든 광고의 반응 차이는?
+C05,compare,none,none,0.6117,summary_case_01#common#0,이니스프리와 시프트업 사례에서 부정적인 반응이 나온 주요 이유를 각각 정리해줘
+C06,compare,none,none,0.6781,summary_case_08#common#0,MBC 선거방송 AI 영상과 우체국 AI 광고의 반응을 비교해줘
+U01,unanswerable,none,numbers,0.6449,yt_kJQW_2LHbjU#time#12,AI 광고를 쓰면 매출이 몇 % 떨어질지 예상해줘
+U02,unanswerable,none,legal,0.6269,yt_kJQW_2LHbjU#time#13,우리 캠페인에 해당 AI 이미지를 쓰면 고소 먹을까?
+U03,unanswerable,none,labeling,0.6782,yt_kJQW_2LHbjU#time#10,AI 광고 모델에 '가상인물' 표시를 꼭 해야 하나?
+U04,unanswerable,none,foreign,0.6336,yt_Svtv24omXyw#time#0,코카콜라 AI 크리스마스 광고에 대한 반응은?
+U05,unanswerable,none,platform,0.7369,yt_kJQW_2LHbjU#time#13,인스타그램에서는 이니스프리 AI 광고 반응이 어땠어?
+U06,unanswerable,none,audience,0.6043,summary_case_04#common#0,20대와 40대는 AI 광고 반응이 어떻게 달라?
+U07,unanswerable,none,numbers,0.6717,yt_kJQW_2LHbjU#time#4,AI 광고 모델을 쓰면 실제 모델 섭외보다 비용이 얼마나 절약돼?
+U08,unanswerable,none,future,0.6016,news_06#common#3,내년에 AI 광고 관련 규제가 어떻게 바뀔까?
+G01,fact_policy,none,none,0.7137,news_10#common#4,AI로 만든 광고 이미지도 저작권 등록을 할 수 있나?
+G02,fact_policy,none,none,0.6677,gov_01#common#20,홍보 포스터를 만들 때 저작권 있는 이미지를 AI에 넣고 우리 제품에 맞게 수정해 쓰면 문제가 되나?
+G03,fact_policy,none,none,0.7328,gov_02#common#17,AI 학습에 대한 공정이용을 판단할 때 고려하는 요소는 무엇인가?
+G04,fact_policy,none,none,0.6745,gov_02#common#58,정부의 AI 학습 공정이용 안내서는 법적 효력이 있는 공식 해석인가?
+S01,synthesis,none,none,0.6305,news_06#common#6,AI 광고에 '창작자 일자리' 반발이 나오는 배경과 관련 정부 기준은?
+S02,synthesis,none,none,0.694,yt_kJQW_2LHbjU#time#1,AI 모델로 화장품 광고를 만들면 소비자 반응과 저작권 측면에서 무엇을 확인해야 하나?
+S03,synthesis,none,none,0.6719,gov_01#common#6,게임사의 AI 뮤직비디오 반발 사례와 AI 학습 데이터 저작권 쟁점을 함께 설명해줘
+S04,synthesis,none,none,0.6481,yt_kJQW_2LHbjU#time#6,영상 전체를 AI로 만드는 광고를 기획할 때 예상되는 반응과 정부 안내서가 이용자에게 권하는 주의사항은?
+S05,synthesis,none,none,0.7348,gov_01#common#21,AI로 만든 음악이나 목소리를 광고에 쓰면 반응과 저작권 유의점은?
+S06,synthesis,none,none,0.6546,gov_02#common#58,공공기관이 AI로 광고를 만들 때 반응 사례와 공공저작물 활용 기준은?

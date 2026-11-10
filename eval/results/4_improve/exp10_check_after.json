@@ -1,0 +1,16 @@
+{
+  "tag": "exp10_check_after",
+  "S_nonpredict": [
+    "S01",
+    "S02",
+    "S03",
+    "S05",
+    "S06"
+  ],
+  "S_both_top3": 5,
+  "S_both_top5": 5,
+  "W_both_top3": 2,
+  "W_n": 4,
+  "detect_ok": 9,
+  "detect_n": 13
+}

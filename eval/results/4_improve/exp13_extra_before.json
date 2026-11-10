@@ -1,0 +1,71 @@
+[
+  {
+    "id": "Z01",
+    "scope": null,
+    "refusal": null,
+    "text": "페리카나 AI 광고에 대한 댓글 반응은 대체로 부정적이었다고 합니다. 부정 댓글이 68.6%로 가장 많았고, 주된 이유는 광고 내용에 대한 거부감과 어색함이었습니다.[1] 댓글에서는 광고 내용이 징그럽고 부적절하다는 의견이 많았으며, 기획과 승인 과정에 문제를 제기하는 반응도 있었습니다.[1][2] 일부 댓글은 광고가 노이즈 마케팅 효과를 냈다는 평가도 있었지만, 전반적으로 부정적 반응이 우세했습니다.[2] 긍정 댓글은 매우 적어 전체 반응에서 거의 무시할 수준이었습니다.[1]",
+    "case_log": [],
+    "cite_problems": [],
+    "compare": {
+      "mode": null,
+      "case_ids": [],
+      "by": null,
+      "by_name": false,
+      "error": null
+    },
+    "dropped": [],
+    "source_ids": [
+      "summary_case_09#common#0",
+      "yt_XsARMpItpqg#time#2",
+      "yt_XsARMpItpqg#time#1",
+      "yt_XsARMpItpqg#time#0",
+      "yt_kJQW_2LHbjU#time#15"
+    ]
+  },
+  {
+    "id": "Z02",
+    "scope": null,
+    "refusal": null,
+    "text": "MBC 선거방송 카운트다운 AI 영상에 대해 시청자들은 대체로 감동적이고 눈물이 났다는 긍정적인 반응을 많이 보였습니다[1][2]. 영상이 대한민국의 역사를 잘 표현했고, 특히 소녀가 할머니로 변하는 장면에서 울컥했다는 댓글이 많았습니다[1][2]. AI 기술을 활용한 점에 대해 신기하고 완성도가 높다는 평가도 있었습니다[1][2]. 부정적인 반응은 소수였고, 주로 AI와 무관한 이유나 영상 내용에 대한 거부감이었습니다[2]. 전반적으로 영상은 시청자들에게 깊은 감동과 공감을 불러일으켰습니다[1][2].",
+    "case_log": [],
+    "cite_problems": [],
+    "compare": {
+      "mode": null,
+      "case_ids": [],
+      "by": null,
+      "by_name": false,
+      "error": null
+    },
+    "dropped": [],
+    "source_ids": [
+      "yt_QW0w2GXe6rA#time#5",
+      "yt_QW0w2GXe6rA#time#17",
+      "yt_QW0w2GXe6rA#time#0",
+      "yt_QW0w2GXe6rA#time#9",
+      "summary_case_06#common#0"
+    ]
+  },
+  {
+    "id": "Z03",
+    "scope": null,
+    "refusal": null,
+    "text": "노랑통닭 우도 땅콩 치킨 AI 광고에 대한 소비자 반응은 부정적 의견이 50%로 가장 많고, 긍정은 15%에 불과했습니다[1]. 부정 댓글은 AI 사용으로 인한 신뢰 하락과 비용 절감 비판이 주된 이유였습니다[1]. 일부 댓글에서는 광고가 유치하거나 기괴하다는 반응도 있었고, AI 광고에 대한 윤리적 문제와 저작권 우려도 제기되었습니다[2]. 반면 소수의 긍정적 댓글은 광고가 귀엽고 노래가 좋다는 의견도 있었습니다[2]. 전반적으로 AI 광고에 대한 불신과 부정적 인식이 강한 편입니다[1][2].",
+    "case_log": [],
+    "cite_problems": [],
+    "compare": {
+      "mode": null,
+      "case_ids": [],
+      "by": null,
+      "by_name": false,
+      "error": null
+    },
+    "dropped": [],
+    "source_ids": [
+      "summary_case_11#common#0",
+      "yt_Svtv24omXyw#time#2",
+      "yt_Svtv24omXyw#time#1",
+      "yt_Svtv24omXyw#time#0",
+      "yt_kJQW_2LHbjU#time#13"
+    ]
+  }
+]

@@ -1,0 +1,64 @@
+{
+  "tag": "deep_plan_summary",
+  "n_runs": 3,
+  "recall_by_run": [
+    1.0,
+    0.889,
+    1.0
+  ],
+  "wrong_by_run": [
+    0,
+    0,
+    0
+  ],
+  "field_acc_by_run": [
+    0.472,
+    0.469,
+    0.472
+  ],
+  "feat_ok_by_run": [
+    0.0,
+    0.0,
+    0.0
+  ],
+  "grade_ok_by_run": [
+    0.556,
+    0.5,
+    0.556
+  ],
+  "similar_ok_by_run": [
+    0.222,
+    0.25,
+    0.222
+  ],
+  "B_hit3_by_run": [
+    0.429,
+    0.429,
+    0.429
+  ],
+  "B_mrr_by_run": [
+    0.446,
+    0.446,
+    0.446
+  ],
+  "B_unfound_by_run": [
+    0,
+    1,
+    0
+  ],
+  "recall_mean": 0.963,
+  "wrong_mean": 0.0,
+  "field_acc_mean": 0.471,
+  "feat_ok_mean": 0.0,
+  "grade_ok_mean": 0.537,
+  "similar_ok_mean": 0.231,
+  "B_hit3_mean": 0.429,
+  "B_mrr_mean": 0.446,
+  "B_unfound_mean": 0.333,
+  "A_hit3": 0.429,
+  "A_mrr": 0.446,
+  "full_hit3_ref": 0.429,
+  "verdict_B_vs_A": "차이 없음",
+  "feat_consistency": 1.0,
+  "feat_unstable": []
+}

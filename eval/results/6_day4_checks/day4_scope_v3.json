@@ -1,0 +1,26 @@
+{
+  "tag": "day4_scope_v3",
+  "errors": 0,
+  "refuse_recall_U": 0.875,
+  "type_ok_U": 0.875,
+  "false_refuse_n": 0,
+  "false_refuse_ids": [],
+  "soft_notice_ids": [
+    "P05",
+    "P08",
+    "G01",
+    "G02",
+    "G04",
+    "S02"
+  ],
+  "top1_U": {
+    "min": 0.6016,
+    "50%": 0.6393,
+    "max": 0.7369
+  },
+  "top1_other": {
+    "min": 0.6065,
+    "50%": 0.6776,
+    "max": 0.8041
+  }
+}

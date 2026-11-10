@@ -1,0 +1,53 @@
+# 적재 검증 (Day 6 재실행, 2026-11-10 11:15)
+W1110 11:15:31.377000 15069 site-packages/torch/distributed/elastic/multiprocessing/redirects.py:35] NOTE: Redirects are currently not supported in MacOs.
+Could not reach the Hub (Cannot reach https://huggingface.co/api/models/nlpai-lab/KURE-v1: offline mode is enabled. To disable it, please unset the `HF_HUB_OFFLINE` environment variable.). Using cached commit hash for 'nlpai-lab/KURE-v1'.
+① 청크 수: chroma 564 / docs.db chunks 564 → 일치
+doc_type         scheme
+case_summary     common     11
+gov              common    139
+news_provided    common    121
+youtube_comment  reason    171
+                 time      122
+
+② 메타데이터 결손 (문서 종류별 빠진 개수, 0이면 생략)
+  case_summary (11개): 결손 없음
+  gov (139개): 결손 없음
+  news_provided (121개): 결손 없음
+  youtube_comment (293개): 결손 없음
+
+③ 샘플 검색 (상위 3개)
+Loading weights:   0%|          | 0/391 [00:00<?, ?it/s]Loading weights: 100%|██████████| 391/391 [00:00<00:00, 6801.14it/s]
+  [reason] 이니스프리 AI 모델 광고에 소비자들은 어떻게 반응했어?
+    0.747 yt_kJQW_2LHbjU#reason#3 | [유튜브 댓글] [한눈에 이슈] 광고계까지 침범한 AI… “뭘 보고 믿으라고?” / KBS
+    0.732 yt_kJQW_2LHbjU#reason#11 | [유튜브 댓글] [한눈에 이슈] 광고계까지 침범한 AI… “뭘 보고 믿으라고?” / KBS
+    0.732 yt_kJQW_2LHbjU#reason#12 | [유튜브 댓글] [한눈에 이슈] 광고계까지 침범한 AI… “뭘 보고 믿으라고?” / KBS
+  [reason] AI로 만든 광고 이미지도 저작권 등록을 할 수 있나?
+    0.714 news_10#common#4 | [제공 뉴스] [IS인터뷰] 이성엽 AI윤리법제포럼 회장, 선·악 없는 AI, 인간 창의력
+    0.689 gov_01#common#3 | [정부 문서] (최종본) 생성형 AI 저작권 안내서
+    0.684 news_15#common#3 | [제공 뉴스] “AI 시대, 큰 돈 벌려면 지식재산권 주목하라”
+  [time] AI 광고가 창작자 일자리를 뺏는다는 반응이 있었어?
+    0.640 yt_kJQW_2LHbjU#time#8 | [유튜브 댓글] [한눈에 이슈] 광고계까지 침범한 AI… “뭘 보고 믿으라고?” / KBS
+    0.638 yt_kJQW_2LHbjU#time#6 | [유튜브 댓글] [한눈에 이슈] 광고계까지 침범한 AI… “뭘 보고 믿으라고?” / KBS
+    0.635 news_15#common#2 | [제공 뉴스] “AI 시대, 큰 돈 벌려면 지식재산권 주목하라”
+
+④ 원문 문서 수 (store/docs.db)
+  유튜브 댓글 (수집): 5457
+  유튜브 댓글 (정제 후): 2290
+  사례 요약: 11
+  제공 뉴스: 16
+  정부 문서: 2
+  정부 문서 쪽: 191
+  청크 (docs.db): 564
+
+⑤ 청크 첫 줄에 문서 제목(title 메타)이 들어 있는지
+                  포함   전체
+doc_type                 
+case_summary      11   11
+gov              139  139
+news_provided    121  121
+youtube_comment  293  293
+  문서 종류별 첫 줄 예시:
+    case_summary: [사례 요약] 이니스프리 섀도 발색 광고 (이니스프리)
+    gov: [정부 문서] (최종본) 생성형 AI 저작권 안내서
+    news_provided: [제공 뉴스] “누구나 AI 학습에 이용 가능”…공공저작물 활용 범위 대폭 확대
+    youtube_comment: [유튜브 댓글] [한눈에 이슈] 광고계까지 침범한 AI… “뭘 보고 믿으라고?” / KBS 2025.08.1

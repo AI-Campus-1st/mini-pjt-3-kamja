@@ -1,0 +1,16 @@
+﻿case_id,video_url,video_kind,title,channel,published_at,video_exists,comments_enabled,comment_count,checked_at,use,note
+case_01,https://www.youtube.com/watch?v=kJQW_2LHbjU,뉴스 리포트,[한눈에 이슈] 광고계까지 침범한 AI… “뭘 보고 믿으라고?” / KBS 2025.08.19.,KBS News,2025-08-19,Y,Y,430,2026-11-03,Y,영상에 해외 게스(보그) AI 모델 리포트도 포함 → 해외 사례 댓글이 섞일 수 있음
+case_02,https://www.youtube.com/shorts/w8A2ucfqjdM,브랜드 공식,실수하기 좋은 영어 시리즈 5탄 #강아지만져봐도돼요?,야나두 영어회화,2025-08-07,Y,Y,425,2026-11-03,Y,기사 속 9탄과 같은 시리즈의 5탄
+case_03,https://www.youtube.com/watch?v=8BjqF5fs5SE,브랜드 공식,[롯데그룹 광고] ‘당신 옆에 좋은 기분’ 편(30s),롯데 LOTTE,2025-05-08,Y,Y,53,2026-11-03,Y,영상 화면에 'AI-Generated Content' 표기. 댓글 53개로 경계선 → 정제 후 30개 미만이면 제외. 이벤트·홍보성 댓글 여부 확인
+case_04,https://www.youtube.com/watch?v=Wxrw5sy5_Hk,브랜드 공식,"[삼성생명 TVCF] 좋은 소식의 시작, 삼성생명",삼성생명,2023-06-19,Y,Y,54,2026-11-03,Y,경계선(54개). 정제 후 30개 미만이면 제외. 이벤트·홍보성 댓글 여부 확인
+case_05,https://www.youtube.com/watch?v=qrZTpDmZxBk,브랜드 공식,영원히 달리는 자동차 (FULL) | 현대자동차,현대자동차 (hyundai korea),2024-06-13,Y,Y,23,2026-11-03,Y,3개 합산 68개. 같은 광고라 중복 댓글 제거 필요
+case_05,https://www.youtube.com/watch?v=vL1F3JJvi78,브랜드 공식,영원히 달리는 자동차 – Ep.1 그만 좀 잘나가｜현대자동차,현대자동차 (hyundai korea),2024-06-03,Y,Y,21,2026-11-03,Y,같은 광고
+case_05,https://www.youtube.com/watch?v=3qWSK7UGBkE,브랜드 공식,영원히 달리는 자동차 – Ep.2 밤엔 잠 좀 자라고｜현대자동차,현대자동차 (hyundai korea),2024-06-03,Y,Y,24,2026-11-03,Y,같은 광고
+case_05,https://www.youtube.com/watch?v=aceswP8A0_M,브랜드 공식,영원히 달리는 자동차 – Ep.3 뜨거운 엔진으로 맺어진 형제 | 현대자동차,현대자동차 (hyundai korea),2024-06-13,Y,Y,7,2026-11-03,N,같은 광고. 사례당 최대 3개 기준으로 댓글 가장 적은 영상 제외
+case_06,https://www.youtube.com/watch?v=QW0w2GXe6rA,브랜드 공식,"[선택2026] MBC 선거방송 카운트다운 영상 :〈소녀, 그리고 우리〉",MBCNEWS,2026-06-03,Y,Y,485,2026-11-03,Y,2026 버전
+case_07,https://www.youtube.com/watch?v=R92Mba1mTX4,브랜드 공식,처음 입는 광복 | 빙그레 (Full ver.),빙그레(Binggrae),2024-08-01,Y,Y,5429,2026-11-03,Y,댓글 매우 많음 → 수집 상한 적용 예정
+case_08,https://www.youtube.com/watch?v=myjoxHG6Puo,브랜드 공식,"청년흥부, 우체국 제비가 도와주마! [달달하이편]",우체국,2025-07-30,Y,Y,49,2026-11-03,N,종합편으로 교체(2026-11-04). 영상 내 AI 표기 있음 → 종합편(표기 없음)과 공개 여부가 달라 섞지 않음
+case_09,https://www.youtube.com/watch?v=XsARMpItpqg,뉴스 리포트,"[와글와글 플러스] ""불륜 광고?""‥페리카나 AI 영상 논란 (2026.05.11/뉴스투데이/MBC)",MBCNEWS,2026-05-10,Y,Y,81,2026-11-03,Y,
+case_10,https://www.youtube.com/watch?v=5Ncuote9ADo,브랜드 공식,"""Wanna be in LOVE"" Feat. Evie | Stellar Blade: BLOOD RAIN",SHIFT UP Official Channel,2026-07-31,Y,Y,9427,2026-11-03,Y,댓글 대부분 외국어 → 한글 비율 기준으로 한국어 댓글만 수집. 30개 미만이면 사례 삭제. 수집 상한 적용 예정
+case_11,https://www.youtube.com/shorts/Svtv24omXyw,브랜드 공식,[2026 우도 땅콩 치킨] 15s_키즈팝ver,노랑통닭,2026-03-31,Y,Y,78,2026-11-03,Y,보도와 댓글 반응이 다름
+case_08,https://www.youtube.com/watch?v=wlz7aUiz6WY,브랜드 공식,우체국예금 CF 출연은 처음이라... [종합편],우체국,2025-07-22,Y,Y,360,2026-11-04,Y,달달하이편과 같은 AI 제비 장면 포함. 영상·설명란·고정 댓글에 AI 표기 없음

@@ -1,0 +1,33 @@
+{
+  "tag": "exp1b_casedesc",
+  "lab": "eval/label_check2.csv",
+  "all": {
+    "n": 40,
+    "direction": 57.5,
+    "reason": 45.0,
+    "reason_merged": 67.5,
+    "negative": 85.0
+  },
+  "top": {
+    "n": 33,
+    "direction": 60.6,
+    "reason": 45.5,
+    "reason_merged": 69.7,
+    "negative": 90.9
+  },
+  "reply": {
+    "n": 7,
+    "direction": 42.9,
+    "reason": 42.9,
+    "reason_merged": 57.1,
+    "negative": 57.1
+  },
+  "invalid_pair": 0,
+  "reason_confusion_top5": {
+    "사람 R0 → GPT R8": 8,
+    "사람 R5 → GPT R8": 2,
+    "사람 R0 → GPT R2": 1,
+    "사람 R0 → GPT R6": 1,
+    "사람 R1 → GPT R0": 1
+  }
+}

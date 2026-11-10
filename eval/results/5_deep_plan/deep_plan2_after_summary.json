@@ -1,0 +1,70 @@
+{
+  "tag": "deep_plan2_after_summary",
+  "gold": "eval/plan_gold2.jsonl",
+  "n_runs": 3,
+  "recall_by_run": [
+    0.778,
+    0.778,
+    0.778
+  ],
+  "wrong_by_run": [
+    0,
+    0,
+    0
+  ],
+  "field_acc_by_run": [
+    0.893,
+    0.893,
+    0.893
+  ],
+  "feat_ok_by_run": [
+    0.571,
+    0.571,
+    0.571
+  ],
+  "grade_ok_by_run": [
+    0.857,
+    0.857,
+    0.857
+  ],
+  "similar_ok_by_run": [
+    0.857,
+    0.714,
+    0.857
+  ],
+  "B_hit3_by_run": [
+    0.667,
+    0.5,
+    0.667
+  ],
+  "B_mrr_by_run": [
+    0.667,
+    0.5,
+    0.667
+  ],
+  "B_unfound_by_run": [
+    2,
+    2,
+    2
+  ],
+  "recall_mean": 0.778,
+  "wrong_mean": 0.0,
+  "field_acc_mean": 0.893,
+  "feat_ok_mean": 0.571,
+  "grade_ok_mean": 0.857,
+  "similar_ok_mean": 0.809,
+  "B_hit3_mean": 0.611,
+  "B_mrr_mean": 0.611,
+  "B_unfound_mean": 2.0,
+  "A_hit3": 0.5,
+  "A_mrr": 0.339,
+  "full_hit3_ref": 0.333,
+  "verdict_B_vs_A": "차이 없음",
+  "feat_consistency": 0.429,
+  "feat_unstable": [
+    "D1",
+    "D2",
+    "F2",
+    "F3"
+  ]
+}

@@ -1,0 +1,11 @@
+sentence-transformers
+tiktoken
+python-dotenv
+langchain-core==1.7.6
+langchain-openai==1.7.4
+openai==3.45.0
+streamlit==1.51.0
+chromadb==1.5.9
+pandas==2.3.3
+pypdf==6.21.4
+plotly==6.3.0

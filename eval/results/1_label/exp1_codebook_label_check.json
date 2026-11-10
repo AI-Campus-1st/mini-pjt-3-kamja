@@ -1,0 +1,27 @@
+{
+  "tag": "exp1_codebook",
+  "lab": "eval/label_check.csv",
+  "all": {
+    "n": 96,
+    "direction": 71.9,
+    "reason": 58.3
+  },
+  "top": {
+    "n": 77,
+    "direction": 71.4,
+    "reason": 53.2
+  },
+  "reply": {
+    "n": 19,
+    "direction": 73.7,
+    "reason": 78.9
+  },
+  "invalid_pair": 0,
+  "reason_confusion_top5": {
+    "사람 R0 → GPT R8": 7,
+    "사람 R8 → GPT R0": 7,
+    "사람 R7 → GPT R8": 4,
+    "사람 R3 → GPT R0": 3,
+    "사람 R3 → GPT R1": 3
+  }
+}

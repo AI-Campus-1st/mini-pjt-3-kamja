@@ -1,0 +1,55 @@
+{
+  "tag": "day5_repro_v1",
+  "mode": "chain",
+  "scheme": "time",
+  "qualified": false,
+  "n": 32,
+  "hit1": 0.719,
+  "hit3": 0.781,
+  "mrr10": 0.77,
+  "by_type": {
+    "compare": {
+      "hit1": 0.833,
+      "hit3": 0.833,
+      "rr": 0.833
+    },
+    "fact_policy": {
+      "hit1": 0.5,
+      "hit3": 0.5,
+      "rr": 0.562
+    },
+    "fact_reaction": {
+      "hit1": 1.0,
+      "hit3": 1.0,
+      "rr": 1.0
+    },
+    "predict": {
+      "hit1": 0.9,
+      "hit3": 1.0,
+      "rr": 0.933
+    },
+    "synthesis": {
+      "hit1": 0.167,
+      "hit3": 0.333,
+      "rr": 0.34
+    }
+  },
+  "intent_predict_recall": 0.9,
+  "intent_other_ok": 0.875,
+  "feat_all_ok": 0.7,
+  "feat_by_field": {
+    "industry": 1.0,
+    "ai_part": 0.7,
+    "disclosed": 1.0,
+    "period": 1.0
+  },
+  "grade_ok": 0.8,
+  "synthesis_intent": {
+    "S01": "other",
+    "S02": "other",
+    "S03": "other",
+    "S04": "predict",
+    "S05": "other",
+    "S06": "other"
+  }
+}

@@ -1,0 +1,14 @@
+﻿id,gold_synth,synth,intent,kinds,both_top3,both_top5
+S01,True,,other,뉴스 뉴스 뉴스 뉴스 뉴스,False,False
+S02,True,,other,반응 반응 반응 반응 반응,False,False
+S03,True,,other,정부 정부 정부 정부 정부,False,False
+S04,True,,predict,반응 반응 반응 반응 반응,False,False
+S05,True,,other,정부 정부 정부 정부 정부,False,False
+S06,True,,other,정부 정부 정부 정부 정부,False,False
+W01,True,,other,반응 반응 반응 반응 반응,False,False
+W02,True,,other,정부 정부 정부 정부 정부,False,False
+W03,True,,other,반응 반응 반응 반응 반응,False,False
+W04,True,,other,반응 반응 반응 반응 반응,False,False
+N01,False,,other,반응 반응 반응 반응 반응,False,False
+N02,False,,other,정부 정부 정부 정부 정부,False,False
+N03,False,,other,반응 반응 반응 반응 반응,False,False

@@ -1,0 +1,3 @@
+{"id": "Z01", "type": "fact_reaction", "q": "페리카나 AI 광고 나왔을 때 댓글 반응은 어땠어?", "answer_key": "case_09 특정. 부정·긍정 비율과 주된 이유가 case_summary.stats와 일치(주된 이유를 2위 이유로 바꾸지 않음). 댓글 한계 안내"}
+{"id": "Z02", "type": "fact_reaction", "q": "MBC 선거방송 카운트다운 AI 영상에 시청자들은 어떤 반응을 보였어?", "answer_key": "case_06 특정. 부정·긍정 비율과 주된 이유가 case_summary.stats와 일치. 댓글 한계 안내"}
+{"id": "Z03", "type": "fact_reaction", "q": "노랑통닭 AI 광고에 대한 소비자 반응 알려줘", "answer_key": "case_11 특정. 표본 부족(자격 없음) 안내와 함께 참고용 비율만 제시, 일반화하지 않음"}

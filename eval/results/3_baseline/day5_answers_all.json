@@ -1,0 +1,1056 @@
+[
+  {
+    "id": "P01",
+    "scope": null,
+    "refusal": null,
+    "text": "[예상] 근거 부족 — 특징이 2개 이상 같은 사례가 없어 예상하기 어렵습니다.",
+    "case_log": [],
+    "cite_problems": [],
+    "compare": null,
+    "dropped": [],
+    "source_ids": []
+  },
+  {
+    "id": "P02",
+    "scope": null,
+    "refusal": null,
+    "text": "[예상] 관찰됨 — 비슷한 사례 5개(특징 2개 이상 일치)에서 아래 반응이 나온 사례가 있습니다. [1][2][3][4][5]\n- 부정 반응의 주된 이유: 'AI와 무관한 반응(광고 내용·이유 없음)', '거부감·어색함' (사례 5개 중 2개) (동률)\n- 긍정 반응의 주된 이유: 'AI와 무관한 반응(광고 내용·이유 없음)' (사례 5개 중 4개)\n\n- [1] 페리카나 AI 불륜 드라마 밈 광고 — 부정 · AI와 무관한 반응(광고 내용·이유 없음): \"(댓글 원문 비공개)\" → 광고 내용에 대한 거부감 [1]\n- [2] 야나두 '실수하기 좋은 영어' AI 숏폼 — 긍정 · AI와 무관한 반응(광고 내용·이유 없음): \"(댓글 원문 비공개)…\" → 생활 영어 학습에 대한 긍정적 반응 [2]\n- [3] MBC 선거방송 카운트다운 '소녀 그리고 우리' — 긍정 · AI와 무관한 반응(광고 내용·이유 없음): \"(댓글 원문 비공개)…\" → 감동적인 세대 변화 표현 [3]\n- [4] 빙그레 '처음 입는 광복' 캠페인 — 긍정 · AI와 무관한 반응(광고 내용·이유 없음): \"(댓글 원문 비공개)\" → 광고에 대한 강한 호감 [4]\n- [5] 시프트업 스텔라 블레이드 '(댓글 원문 비공개)' AI 뮤직비디오 — 부정 · 거부감·어색함: \"(댓글 원문 비공개)\" → AI 영상의 어색함과 거부감 [5]\n\n[주의] 유튜브 댓글은 일부 시청자의 반응이라 실제보다 부정적으로 보일 수 있습니다. 등급·비율은 코드 규칙으로 계산했습니다.",
+    "case_log": [
+      {
+        "case": 1,
+        "llm": {
+          "quote": "(댓글 원문 비공개)",
+          "phrase": "광고 내용에 대한 거부감"
+        },
+        "quote_src": "llm",
+        "problems": [],
+        "quote": "(댓글 원문 비공개)",
+        "ref": 1,
+        "title": "페리카나 AI 불륜 드라마 밈 광고",
+        "dir": "부정"
+      },
+      {
+        "case": 2,
+        "llm": {
+          "quote": "(댓글 원문 비공개)",
+          "phrase": "생활 영어 학습에 대한 긍정적 반응"
+        },
+        "quote_src": "llm",
+        "problems": [],
+        "quote": "(댓글 원문 비공개)",
+        "ref": 2,
+        "title": "야나두 '실수하기 좋은 영어' AI 숏폼",
+        "dir": "긍정"
+      },
+      {
+        "case": 3,
+        "llm": {
+          "quote": "(댓글 원문 비공개)",
+          "phrase": "감동적인 세대 변화 표현"
+        },
+        "quote_src": "llm",
+        "problems": [],
+        "quote": "(댓글 원문 비공개)",
+        "ref": 3,
+        "title": "MBC 선거방송 카운트다운 '소녀 그리고 우리'",
+        "dir": "긍정"
+      },
+      {
+        "case": 4,
+        "llm": {
+          "quote": "(댓글 원문 비공개)",
+          "phrase": "광고에 대한 강한 호감"
+        },
+        "quote_src": "llm",
+        "problems": [],
+        "quote": "(댓글 원문 비공개)",
+        "ref": 4,
+        "title": "빙그레 '처음 입는 광복' 캠페인",
+        "dir": "긍정"
+      },
+      {
+        "case": 5,
+        "llm": {
+          "quote": "(댓글 원문 비공개)",
+          "phrase": "AI 영상의 어색함과 거부감"
+        },
+        "quote_src": "llm",
+        "problems": [],
+        "quote": "(댓글 원문 비공개)",
+        "ref": 5,
+        "title": "시프트업 스텔라 블레이드 '(댓글 원문 비공개)' AI 뮤직비디오",
+        "dir": "부정"
+      }
+    ],
+    "cite_problems": [],
+    "compare": null,
+    "dropped": [],
+    "source_ids": [
+      "summary_case_09#common#0",
+      "summary_case_02#common#0",
+      "summary_case_06#common#0",
+      "summary_case_07#common#0",
+      "summary_case_10#common#0",
+      "yt_XsARMpItpqg#time#1",
+      "yt_XsARMpItpqg#time#0",
+      "yt_5Ncuote9ADo#time#12",
+      "yt_5Ncuote9ADo#time#6"
+    ]
+  },
+  {
+    "id": "P03",
+    "scope": null,
+    "refusal": null,
+    "text": "[예상] 근거 부족 — 비슷한 사례가 1개뿐이라 예상하기 어렵습니다. 아래는 그 사례 하나의 관찰 결과입니다. [1]\n\n- [1] 우체국예금 '보답하는 제비' 광고 — 긍정 · AI와 무관한 반응(광고 내용·이유 없음): \"(댓글 원문 비공개)\" → 광고모델 제비 귀여움 [1]\n\n[주의] 유튜브 댓글은 일부 시청자의 반응이라 실제보다 부정적으로 보일 수 있습니다. 등급·비율은 코드 규칙으로 계산했습니다.",
+    "case_log": [
+      {
+        "case": 1,
+        "llm": {
+          "quote": "(댓글 원문 비공개)",
+          "phrase": "광고모델 제비 귀여움"
+        },
+        "quote_src": "llm",
+        "problems": [],
+        "quote": "(댓글 원문 비공개)",
+        "ref": 1,
+        "title": "우체국예금 '보답하는 제비' 광고",
+        "dir": "긍정"
+      }
+    ],
+    "cite_problems": [],
+    "compare": null,
+    "dropped": [],
+    "source_ids": [
+      "summary_case_08#common#0",
+      "yt_wlz7aUiz6WY#time#1",
+      "yt_wlz7aUiz6WY#time#2",
+      "yt_wlz7aUiz6WY#time#3",
+      "yt_wlz7aUiz6WY#time#8"
+    ]
+  },
+  {
+    "id": "P04",
+    "scope": null,
+    "refusal": null,
+    "text": "[예상] 근거 부족 — 비슷한 사례가 1개뿐이라 예상하기 어렵습니다. 아래는 그 사례 하나의 관찰 결과입니다. [1]\n\n- [1] 야나두 '실수하기 좋은 영어' AI 숏폼 — 긍정 · AI와 무관한 반응(광고 내용·이유 없음): \"(댓글 원문 비공개)…\" → 생활 영어 학습 효과에 대한 긍정 [1]\n\n[주의] 유튜브 댓글은 일부 시청자의 반응이라 실제보다 부정적으로 보일 수 있습니다. 등급·비율은 코드 규칙으로 계산했습니다.",
+    "case_log": [
+      {
+        "case": 1,
+        "llm": {
+          "quote": "(댓글 원문 비공개)",
+          "phrase": "생활 영어 학습 효과에 대한 긍정"
+        },
+        "quote_src": "llm",
+        "problems": [],
+        "quote": "(댓글 원문 비공개)",
+        "ref": 1,
+        "title": "야나두 '실수하기 좋은 영어' AI 숏폼",
+        "dir": "긍정"
+      }
+    ],
+    "cite_problems": [],
+    "compare": null,
+    "dropped": [],
+    "source_ids": [
+      "summary_case_02#common#0",
+      "yt_w8A2ucfqjdM#time#9",
+      "yt_w8A2ucfqjdM#time#7",
+      "yt_w8A2ucfqjdM#time#6",
+      "yt_w8A2ucfqjdM#time#2"
+    ]
+  },
+  {
+    "id": "P05",
+    "scope": "legal",
+    "refusal": null,
+    "text": "[안내] 개별 사안의 합법·위법은 판단하지 않습니다(필요하면 법률 전문가와 상담하세요). 아래는 자료에 있는 일반 기준과 사례 반응입니다.\n\n[예상] 관찰됨 — 비슷한 사례 4개(특징 2개 이상 일치)에서 아래 반응이 나온 사례가 있습니다. [1][2][3][4]\n- 부정 반응의 주된 이유: '거부감·어색함', 'AI와 무관한 반응(광고 내용·이유 없음)' (사례 4개 중 2개) (동률)\n- 긍정 반응의 주된 이유: 'AI와 무관한 반응(광고 내용·이유 없음)' (사례 4개 중 3개)\n\n- [1] 시프트업 스텔라 블레이드 '(댓글 원문 비공개)' AI 뮤직비디오 — 부정 · 거부감·어색함: \"(댓글 원문 비공개)\" → AI 영상의 어색함과 거부감 [1]\n- [2] 야나두 '실수하기 좋은 영어' AI 숏폼 — 긍정 · AI와 무관한 반응(광고 내용·이유 없음): \"(댓글 원문 비공개)…\" → 생활 영어 학습에 대한 긍정적 반응 [2]\n- [3] MBC 선거방송 카운트다운 '소녀 그리고 우리' — 긍정 · AI와 무관한 반응(광고 내용·이유 없음): \"(댓글 원문 비공개)…\" → 감동적인 세대 변화 표현 [3]\n- [4] 페리카나 AI 불륜 드라마 밈 광고 — 부정 · AI와 무관한 반응(광고 내용·이유 없음): \"(댓글 원문 비공개)\" → 광고 내용에 대한 불쾌감 [4]\n\n[주의] 유튜브 댓글은 일부 시청자의 반응이라 실제보다 부정적으로 보일 수 있습니다. 등급·비율은 코드 규칙으로 계산했습니다.",
+    "case_log": [
+      {
+        "case": 1,
+        "llm": {
+          "quote": "(댓글 원문 비공개)",
+          "phrase": "AI 영상의 어색함과 거부감"
+        },
+        "quote_src": "llm",
+        "problems": [],
+        "quote": "(댓글 원문 비공개)",
+        "ref": 1,
+        "title": "시프트업 스텔라 블레이드 '(댓글 원문 비공개)' AI 뮤직비디오",
+        "dir": "부정"
+      },
+      {
+        "case": 2,
+        "llm": {
+          "quote": "(댓글 원문 비공개)",
+          "phrase": "생활 영어 학습에 대한 긍정적 반응"
+        },
+        "quote_src": "llm",
+        "problems": [],
+        "quote": "(댓글 원문 비공개)",
+        "ref": 2,
+        "title": "야나두 '실수하기 좋은 영어' AI 숏폼",
+        "dir": "긍정"
+      },
+      {
+        "case": 3,
+        "llm": {
+          "quote": "(댓글 원문 비공개)",
+          "phrase": "감동적인 세대 변화 표현"
+        },
+        "quote_src": "llm",
+        "problems": [],
+        "quote": "(댓글 원문 비공개)",
+        "ref": 3,
+        "title": "MBC 선거방송 카운트다운 '소녀 그리고 우리'",
+        "dir": "긍정"
+      },
+      {
+        "case": 4,
+        "llm": {
+          "quote": "(댓글 원문 비공개)",
+          "phrase": "광고 내용에 대한 불쾌감"
+        },
+        "quote_src": "llm",
+        "problems": [],
+        "quote": "(댓글 원문 비공개)",
+        "ref": 4,
+        "title": "페리카나 AI 불륜 드라마 밈 광고",
+        "dir": "부정"
+      }
+    ],
+    "cite_problems": [],
+    "compare": null,
+    "dropped": [],
+    "source_ids": [
+      "summary_case_10#common#0",
+      "summary_case_02#common#0",
+      "summary_case_06#common#0",
+      "summary_case_09#common#0",
+      "yt_5Ncuote9ADo#time#12",
+      "yt_5Ncuote9ADo#time#11",
+      "yt_5Ncuote9ADo#time#8",
+      "yt_5Ncuote9ADo#time#13",
+      "yt_5Ncuote9ADo#time#5"
+    ]
+  },
+  {
+    "id": "P06",
+    "scope": null,
+    "refusal": null,
+    "text": "[예상] 근거 부족 — 특징이 2개 이상 같은 사례가 없어 예상하기 어렵습니다.",
+    "case_log": [],
+    "cite_problems": [],
+    "compare": null,
+    "dropped": [],
+    "source_ids": []
+  },
+  {
+    "id": "P07",
+    "scope": null,
+    "refusal": null,
+    "text": "[예상] 관찰됨 — 비슷한 사례 2개(특징 2개 이상 일치)에서 아래 반응이 나온 사례가 있습니다. [1][2]\n- 부정 반응의 주된 이유: 'AI와 무관한 반응(광고 내용·이유 없음)' (사례 2개 중 1개)\n- 긍정 반응의 주된 이유: 'AI와 무관한 반응(광고 내용·이유 없음)' (사례 2개 중 1개)\n\n- [1] 빙그레 '처음 입는 광복' 캠페인 — 긍정 · AI와 무관한 반응(광고 내용·이유 없음): \"(댓글 원문 비공개)\" → 광고에 대한 강한 호감 [1]\n- [2] 페리카나 AI 불륜 드라마 밈 광고 — 부정 · AI와 무관한 반응(광고 내용·이유 없음): \"(댓글 원문 비공개)\" → 광고 내용에 대한 거부감 [2]\n\n[주의] 유튜브 댓글은 일부 시청자의 반응이라 실제보다 부정적으로 보일 수 있습니다. 등급·비율은 코드 규칙으로 계산했습니다.",
+    "case_log": [
+      {
+        "case": 1,
+        "llm": {
+          "quote": "(댓글 원문 비공개)",
+          "phrase": "광고에 대한 강한 호감"
+        },
+        "quote_src": "llm",
+        "problems": [],
+        "quote": "(댓글 원문 비공개)",
+        "ref": 1,
+        "title": "빙그레 '처음 입는 광복' 캠페인",
+        "dir": "긍정"
+      },
+      {
+        "case": 2,
+        "llm": {
+          "quote": "(댓글 원문 비공개)",
+          "phrase": "광고 내용에 대한 거부감"
+        },
+        "quote_src": "llm",
+        "problems": [],
+        "quote": "(댓글 원문 비공개)",
+        "ref": 2,
+        "title": "페리카나 AI 불륜 드라마 밈 광고",
+        "dir": "부정"
+      }
+    ],
+    "cite_problems": [],
+    "compare": null,
+    "dropped": [],
+    "source_ids": [
+      "summary_case_07#common#0",
+      "summary_case_09#common#0",
+      "yt_XsARMpItpqg#time#1",
+      "yt_XsARMpItpqg#time#0",
+      "yt_XsARMpItpqg#time#2"
+    ]
+  },
+  {
+    "id": "P08",
+    "scope": "legal",
+    "refusal": null,
+    "text": "[안내] 개별 사안의 합법·위법은 판단하지 않습니다(필요하면 법률 전문가와 상담하세요). 아래는 자료에 있는 일반 기준과 사례 반응입니다.\n\n코스메틱 광고에 AI 모델을 쓴 사실을 처음에 알리지 않고 나중에 인정하는 것은 소비자 신뢰를 크게 떨어뜨립니다[1][2]. 소비자들은 AI 모델 사용을 고지하지 않는 것을 거짓 광고나 과장 광고로 인식하며, 특히 화장품처럼 실제 효과를 눈으로 확인해야 하는 제품에서는 더욱 부정적으로 봅니다[1][2]. 댓글에서는 AI 사용 사실을 숨기다가 나중에 인정하는 행위가 신뢰 하락과 비용 절감 비판으로 이어진다고 지적합니다[2]. 따라서 AI 모델 사용 사실을 사전에 투명하게 알리는 것이 중요하다는 의견이 많습니다[1][2].",
+    "case_log": [],
+    "cite_problems": [],
+    "compare": {
+      "mode": null,
+      "case_ids": [],
+      "by": null,
+      "by_name": false,
+      "error": null
+    },
+    "dropped": [],
+    "source_ids": [
+      "yt_kJQW_2LHbjU#time#10",
+      "yt_kJQW_2LHbjU#time#0",
+      "yt_kJQW_2LHbjU#time#4",
+      "yt_kJQW_2LHbjU#time#14",
+      "summary_case_01#common#0"
+    ]
+  },
+  {
+    "id": "P09",
+    "scope": null,
+    "refusal": null,
+    "text": "[예상] 근거 부족 — 비슷한 사례가 1개뿐이라 예상하기 어렵습니다. 아래는 그 사례 하나의 관찰 결과입니다. [1]\n\n- [1] MBC 선거방송 카운트다운 '소녀 그리고 우리' — 긍정 · AI와 무관한 반응(광고 내용·이유 없음): \"(댓글 원문 비공개)…\" → 감동과 세대 공감 [1]\n\n[주의] 유튜브 댓글은 일부 시청자의 반응이라 실제보다 부정적으로 보일 수 있습니다. 등급·비율은 코드 규칙으로 계산했습니다.",
+    "case_log": [
+      {
+        "case": 1,
+        "llm": {
+          "quote": "(댓글 원문 비공개)",
+          "phrase": "감동과 세대 공감"
+        },
+        "quote_src": "llm",
+        "problems": [],
+        "quote": "(댓글 원문 비공개)",
+        "ref": 1,
+        "title": "MBC 선거방송 카운트다운 '소녀 그리고 우리'",
+        "dir": "긍정"
+      }
+    ],
+    "cite_problems": [],
+    "compare": null,
+    "dropped": [],
+    "source_ids": [
+      "summary_case_06#common#0",
+      "yt_QW0w2GXe6rA#time#17",
+      "yt_QW0w2GXe6rA#time#18",
+      "yt_QW0w2GXe6rA#time#13",
+      "yt_QW0w2GXe6rA#time#5"
+    ]
+  },
+  {
+    "id": "P10",
+    "scope": null,
+    "refusal": null,
+    "text": "[예상] 관찰됨 — 비슷한 사례 4개(특징 2개 이상 일치)에서 아래 반응이 나온 사례가 있습니다. [1][2][3][4]\n- 부정 반응의 주된 이유: '거부감·어색함', 'AI와 무관한 반응(광고 내용·이유 없음)' (사례 4개 중 2개) (동률)\n- 긍정 반응의 주된 이유: 'AI와 무관한 반응(광고 내용·이유 없음)' (사례 4개 중 3개)\n\n- [1] 야나두 '실수하기 좋은 영어' AI 숏폼 — 긍정 · AI와 무관한 반응(광고 내용·이유 없음): \"(댓글 원문 비공개)…\" → 생활 영어 학습에 대한 긍정적 반응 [1]\n- [2] MBC 선거방송 카운트다운 '소녀 그리고 우리' — 긍정 · AI와 무관한 반응(광고 내용·이유 없음): \"(댓글 원문 비공개)…\" → 감동적인 시대 변화 표현 [2]\n- [3] 페리카나 AI 불륜 드라마 밈 광고 — 부정 · AI와 무관한 반응(광고 내용·이유 없음): \"(댓글 원문 비공개)\" → 광고 내용에 대한 거부감 [3]\n- [4] 시프트업 스텔라 블레이드 '(댓글 원문 비공개)' AI 뮤직비디오 — 부정 · 거부감·어색함: \"(댓글 원문 비공개)\" → AI 영상의 어색함에 대한 거부감 [4]\n\n[주의] 유튜브 댓글은 일부 시청자의 반응이라 실제보다 부정적으로 보일 수 있습니다. 등급·비율은 코드 규칙으로 계산했습니다.",
+    "case_log": [
+      {
+        "case": 1,
+        "llm": {
+          "quote": "(댓글 원문 비공개)",
+          "phrase": "생활 영어 학습에 대한 긍정적 반응"
+        },
+        "quote_src": "llm",
+        "problems": [],
+        "quote": "(댓글 원문 비공개)",
+        "ref": 1,
+        "title": "야나두 '실수하기 좋은 영어' AI 숏폼",
+        "dir": "긍정"
+      },
+      {
+        "case": 2,
+        "llm": {
+          "quote": "(댓글 원문 비공개)",
+          "phrase": "감동적인 시대 변화 표현"
+        },
+        "quote_src": "llm",
+        "problems": [],
+        "quote": "(댓글 원문 비공개)",
+        "ref": 2,
+        "title": "MBC 선거방송 카운트다운 '소녀 그리고 우리'",
+        "dir": "긍정"
+      },
+      {
+        "case": 3,
+        "llm": {
+          "quote": "(댓글 원문 비공개)",
+          "phrase": "광고 내용에 대한 거부감"
+        },
+        "quote_src": "llm",
+        "problems": [],
+        "quote": "(댓글 원문 비공개)",
+        "ref": 3,
+        "title": "페리카나 AI 불륜 드라마 밈 광고",
+        "dir": "부정"
+      },
+      {
+        "case": 4,
+        "llm": {
+          "quote": "(댓글 원문 비공개)",
+          "phrase": "AI 영상의 어색함에 대한 거부감"
+        },
+        "quote_src": "llm",
+        "problems": [],
+        "quote": "(댓글 원문 비공개)",
+        "ref": 4,
+        "title": "시프트업 스텔라 블레이드 '(댓글 원문 비공개)' AI 뮤직비디오",
+        "dir": "부정"
+      }
+    ],
+    "cite_problems": [],
+    "compare": null,
+    "dropped": [],
+    "source_ids": [
+      "summary_case_02#common#0",
+      "summary_case_06#common#0",
+      "summary_case_09#common#0",
+      "summary_case_10#common#0",
+      "yt_XsARMpItpqg#time#1",
+      "yt_XsARMpItpqg#time#0",
+      "yt_5Ncuote9ADo#time#12",
+      "yt_5Ncuote9ADo#time#11"
+    ]
+  },
+  {
+    "id": "F01",
+    "scope": null,
+    "refusal": null,
+    "text": "소비자들은 이니스프리 AI 광고를 비판한 주요 이유로 신뢰 하락과 비용 절감 비판을 들었다. 광고에 AI 모델을 사용했으나 사전 고지가 없어 소비자들이 속았다고 느꼈고, 특히 화장품 발색 효과를 AI로 과장하는 것이 허위광고 같다는 의견이 많았다[2]. 또한 AI 광고로 광고비를 줄였으면 제품 가격도 내려야 한다는 요구가 많았다[1][2]. AI가 만든 이미지가 실제 제품과 다르다는 점에서 진정성이 떨어진다는 비판도 있었다[1]. 전반적으로 소비자들은 AI 광고가 제품 신뢰도를 떨어뜨리고 기만적이라고 느꼈다[2].",
+    "case_log": [],
+    "cite_problems": [],
+    "compare": {
+      "mode": null,
+      "case_ids": [],
+      "by": null,
+      "by_name": false,
+      "error": null
+    },
+    "dropped": [],
+    "source_ids": [
+      "yt_kJQW_2LHbjU#time#13",
+      "yt_kJQW_2LHbjU#time#6",
+      "yt_kJQW_2LHbjU#time#12",
+      "yt_kJQW_2LHbjU#time#1",
+      "summary_case_01#common#0"
+    ]
+  },
+  {
+    "id": "F02",
+    "scope": null,
+    "refusal": null,
+    "text": "불륜 콘셉트로 논란이 된 광고는 페리카나가 AI로 제작한 광고 영상으로, 부부 사이의 외도를 연상시키는 설정과 장면이 포함되어 있었다고 합니다[1]. 이 광고는 페리카나 공식 SNS에서 공개되었으나 표현의 적절성 문제로 삭제되었습니다[1]. 소비자 반응은 부정적이 많아 부정 댓글이 68.6%였고, 주된 부정 이유는 광고 내용에 대한 거부감과 어색함이었습니다[1]. 댓글에는 광고를 승인한 임원이나 기획자를 비판하는 내용도 다수 포함되어 있었습니다[1][2]. 긍정적인 반응은 매우 적었고, 일부는 노이즈 마케팅 효과를 언급하기도 했습니다[1][2].",
+    "case_log": [],
+    "cite_problems": [],
+    "compare": {
+      "mode": null,
+      "case_ids": [],
+      "by": null,
+      "by_name": false,
+      "error": null
+    },
+    "dropped": [],
+    "source_ids": [
+      "summary_case_09#common#0",
+      "yt_XsARMpItpqg#time#0",
+      "yt_XsARMpItpqg#time#1",
+      "yt_XsARMpItpqg#time#2",
+      "summary_case_11#common#0"
+    ]
+  },
+  {
+    "id": "F03",
+    "scope": null,
+    "refusal": null,
+    "text": "한국 소비자들은 시프트업 스텔라 블레이드 AI 뮤직비디오에 대해 대체로 부정적인 반응을 보였습니다. 댓글 중 58.5%가 부정적이며, 주된 이유는 영상과 AI 사용에 대한 거부감과 어색함이었습니다[2]. 특히 영상 퀄리티가 낮고, 얼굴과 립싱크가 맞지 않는 점, 일본어 노래 사용에 대한 불만이 많았습니다[1]. 긍정적인 반응은 16.5%로 적었고, 주로 AI 기술의 신기함이나 완성도를 칭찬하는 내용이었습니다[2]. 전반적으로 소비자들은 AI 활용에 대해 기대보다 실망이 크다는 의견이 많았습니다[1][2].",
+    "case_log": [],
+    "cite_problems": [],
+    "compare": {
+      "mode": null,
+      "case_ids": [],
+      "by": null,
+      "by_name": false,
+      "error": null
+    },
+    "dropped": [],
+    "source_ids": [
+      "yt_5Ncuote9ADo#time#11",
+      "yt_5Ncuote9ADo#time#6",
+      "yt_5Ncuote9ADo#time#9",
+      "yt_5Ncuote9ADo#time#10",
+      "summary_case_10#common#0"
+    ]
+  },
+  {
+    "id": "F04",
+    "scope": null,
+    "refusal": null,
+    "text": "빙그레 '처음 입는 광복' 캠페인은 매우 감동적이고 뜻깊다는 반응이 많았습니다. 많은 시청자가 눈물을 흘렸고, 독립운동가들의 희생에 감사하는 마음을 표현했습니다[1]. 캠페인의 진정성과 세심한 기획에 대해 칭찬이 이어졌으며, 브랜드에 대한 긍정적 이미지가 강화되었습니다[1]. 일부는 이 캠페인이 현재 어려운 시기에 희망과 힘을 준다고 평가했습니다[1]. 전반적으로 소비자들은 캠페인에 큰 감동과 감사의 뜻을 나타냈습니다[1].",
+    "case_log": [],
+    "cite_problems": [],
+    "compare": {
+      "mode": null,
+      "case_ids": [],
+      "by": null,
+      "by_name": false,
+      "error": null
+    },
+    "dropped": [],
+    "source_ids": [
+      "yt_R92Mba1mTX4#time#1",
+      "yt_R92Mba1mTX4#time#24",
+      "yt_R92Mba1mTX4#time#15",
+      "yt_R92Mba1mTX4#time#3",
+      "yt_R92Mba1mTX4#time#5"
+    ]
+  },
+  {
+    "id": "F05",
+    "scope": null,
+    "refusal": null,
+    "text": "야나두 숏폼에서 흑인과 할머니가 나오는 영상은 소비자 반응이 긍정 45.2%, 부정 7.3%, 중립 47.6%로 나타났습니다[1]. 긍정 댓글 중에는 AI의 완성도와 신기함을 칭찬하는 의견이 많았고, 부정 댓글은 주로 거부감이나 어색함 때문이었습니다[1]. 유튜브 댓글에서도 영상이 신선하고 재미있다는 반응이 많았으며, 할머니와 흑인 인물의 자연스러운 대화가 호평을 받았습니다[2]. 다만 일부는 AI임을 의심하거나 부자연스럽다는 의견도 있었습니다[1][2]. 전반적으로 소비자들이 대체로 좋아하는 편입니다[1][2].",
+    "case_log": [],
+    "cite_problems": [],
+    "compare": {
+      "mode": null,
+      "case_ids": [],
+      "by": null,
+      "by_name": false,
+      "error": null
+    },
+    "dropped": [],
+    "source_ids": [
+      "summary_case_02#common#0",
+      "yt_w8A2ucfqjdM#time#6",
+      "yt_w8A2ucfqjdM#time#8",
+      "yt_w8A2ucfqjdM#time#0",
+      "yt_w8A2ucfqjdM#time#2"
+    ]
+  },
+  {
+    "id": "F06",
+    "scope": null,
+    "refusal": null,
+    "text": "보험 광고에서 AI를 활용한 사례로는 삼성생명의 '좋은 소식의 시작' TVCF가 있습니다. 이 광고는 AI가 만든 이미지와 영상을 사용해 보험을 떠올리는 순간을 표현했습니다[1]. 소비자 반응은 긍정과 부정이 혼재했는데, 부정 댓글은 AI 이미지의 부자연스러움과 거부감이 주된 이유였고, 긍정 댓글은 신기함과 새로운 시도에 대한 호평이 많았습니다[1][2]. 일부 소비자는 보험 광고에 AI를 사용하는 것이 비인간적이라고 느끼기도 했습니다[2]. 전반적으로 AI 활용에 대한 의견이 갈렸으며, 부정적 반응이 다소 우세한 편입니다[1][2].",
+    "case_log": [],
+    "cite_problems": [],
+    "compare": {
+      "mode": null,
+      "case_ids": [],
+      "by": null,
+      "by_name": false,
+      "error": null
+    },
+    "dropped": [],
+    "source_ids": [
+      "summary_case_04#common#0",
+      "yt_Wxrw5sy5_Hk#time#1",
+      "yt_Wxrw5sy5_Hk#time#0",
+      "yt_Wxrw5sy5_Hk#time#2",
+      "summary_case_01#common#0"
+    ]
+  },
+  {
+    "id": "C01",
+    "scope": null,
+    "refusal": null,
+    "text": "[비교] 공개 여부별 사례의 댓글 반응 (댓글 표본이 충분한 사례만, 최상위 댓글 기준)\n- 처음부터 공개: 사례 5개 [1]~[5] — 부정 0.2~68.6% (사례별 수치는 표)\n- 논란 후 인정: 사례 1개 — 이니스프리 AI 모델 섀도 발색 광고 [6]: 부정 78.5% · 긍정 0.6% (댓글 181개), 부정 주된 이유 신뢰 하락, 긍정 주된 이유 -\n- 영상 내 표기 없음: 사례 1개 — 우체국예금 '보답하는 제비' 광고 [7]: 부정 4.1% · 긍정 70.7% (댓글 123개), 부정 주된 이유 거부감·어색함, 긍정 주된 이유 AI와 무관한 반응(광고 내용·이유 없음)\n[주의] 논란 후 인정, 영상 내 표기 없음 값은 사례가 1개뿐이라 그 사례 하나의 관찰 결과입니다. 공개 여부 때문에 반응이 달라졌다고 일반화할 수 없습니다.\n\nAI 사용을 논란 후 인정한 이니스프리 광고는 부정 반응이 매우 높고 신뢰 하락과 비용 절감 비판이 주된 부정 이유였다[6]. AI 사용을 영상 내에 표기하지 않은 우체국 광고는 긍정 반응이 많았으나, 부정 댓글에서는 거부감과 어색함이 나타났다[7].\n\n[주의] 유튜브 댓글은 일부 시청자의 반응이라 실제보다 부정적으로 보일 수 있습니다. 등급·비율은 코드 규칙으로 계산했습니다.",
+    "case_log": [],
+    "cite_problems": [],
+    "compare": {
+      "mode": "feature",
+      "case_ids": [],
+      "by": "disclosed",
+      "by_name": false,
+      "error": null
+    },
+    "dropped": [
+      {
+        "line": "AI 사용을 처음부터 공개한 광고들은 긍정 반응이 많고 부정 반응은 비교적 낮으며, 부정 이유로는 주로 거부감이나 어색함이 지적되었다[1][2][3][4][5].",
+        "why": "여러 사례 묶음"
+      }
+    ],
+    "source_ids": [
+      "summary_case_02#common#0",
+      "summary_case_06#common#0",
+      "summary_case_07#common#0",
+      "summary_case_09#common#0",
+      "summary_case_10#common#0",
+      "summary_case_01#common#0",
+      "summary_case_08#common#0",
+      "yt_kJQW_2LHbjU#time#13",
+      "yt_kJQW_2LHbjU#time#7",
+      "yt_kJQW_2LHbjU#time#14",
+      "summary_case_04#common#0"
+    ]
+  },
+  {
+    "id": "C02",
+    "scope": null,
+    "refusal": null,
+    "text": "뉴스 댓글과 브랜드 공식 영상 댓글의 차이는 다음과 같습니다. 뉴스 댓글(이니스프리 사례)은 부정 비율이 매우 높아 78.5%였고, 신뢰 하락과 비용 절감 비판이 주된 부정 이유였습니다[1][4]. 반면, 브랜드 공식 영상 댓글(삼성생명, 현대자동차 사례)은 부정 비율이 상대적으로 낮거나 긍정 비율이 높았으며, 부정 댓글은 주로 거부감·어색함 때문이었습니다[2][3]. 뉴스 댓글은 강한 부정 반응이 많아 실제보다 부정적으로 보일 수 있다는 점도 언급되었습니다[1][2][3]. 따라서 뉴스 댓글은 주로 AI 광고에 대한 불신과 비판적 시각이 강했고, 브랜드 공식 영상 댓글은 비교적 긍정적이거나 중립적인 반응이 많았습니다[1][2][3][4].",
+    "case_log": [],
+    "cite_problems": [],
+    "compare": {
+      "mode": null,
+      "case_ids": [],
+      "by": null,
+      "by_name": false,
+      "error": null
+    },
+    "dropped": [],
+    "source_ids": [
+      "summary_case_01#common#0",
+      "summary_case_04#common#0",
+      "summary_case_05#common#0",
+      "yt_kJQW_2LHbjU#time#13",
+      "summary_case_09#common#0"
+    ]
+  },
+  {
+    "id": "C03",
+    "scope": null,
+    "refusal": null,
+    "text": "[비교] 질문한 사례의 댓글 반응 (최상위 댓글 기준)\n- 빙그레 '처음 입는 광복' 캠페인 [1]: 부정 0.2% · 긍정 97.0% (댓글 460개), 부정 주된 이유 -, 긍정 주된 이유 AI와 무관한 반응(광고 내용·이유 없음)\n- 페리카나 AI 불륜 드라마 밈 광고 [2]: 부정 68.6% · 긍정 5.7% (댓글 35개), 부정 주된 이유 AI와 무관한 반응(광고 내용·이유 없음), 긍정 주된 이유 -\n\n빙그레 '처음 입는 광복' 캠페인은 AI 사용과 무관하게 광고 내용에 대한 긍정적 반응이 많았고, 감동적이라는 평가가 주를 이뤘다[1]. 반면 페리카나 AI 불륜 드라마 밈 광고는 광고 내용과 표현에 대한 부정적 반응이 많았으며, 불쾌감과 거부감을 표현하는 댓글이 많았다[2][3]. 두 광고 모두 AI 사용에 대한 직접적인 반응보다는 광고 내용 자체에 대한 반응이 주된 이유였다[1][2].\n\n[주의] 유튜브 댓글은 일부 시청자의 반응이라 실제보다 부정적으로 보일 수 있습니다. 등급·비율은 코드 규칙으로 계산했습니다.",
+    "case_log": [],
+    "cite_problems": [],
+    "compare": {
+      "mode": "cases",
+      "case_ids": [
+        "case_07",
+        "case_09"
+      ],
+      "by": "industry",
+      "by_name": false,
+      "error": null
+    },
+    "dropped": [],
+    "source_ids": [
+      "summary_case_07#common#0",
+      "summary_case_09#common#0",
+      "yt_XsARMpItpqg#time#1",
+      "yt_XsARMpItpqg#time#2",
+      "yt_XsARMpItpqg#time#0"
+    ]
+  },
+  {
+    "id": "C04",
+    "scope": null,
+    "refusal": null,
+    "text": "[비교] AI를 쓴 부분별 사례의 댓글 반응 (댓글 표본이 충분한 사례만, 최상위 댓글 기준)\n- 영상 전체: 사례 5개 [1]~[5] — 부정 4.1~68.6% (사례별 수치는 표)\n- 모델 인물: 사례 1개 — 이니스프리 AI 모델 섀도 발색 광고 [6]: 부정 78.5% · 긍정 0.6% (댓글 181개), 부정 주된 이유 신뢰 하락, 긍정 주된 이유 -\n- 배경·연출 일부: 사례 1개 — 빙그레 '처음 입는 광복' 캠페인 [7]: 부정 0.2% · 긍정 97.0% (댓글 460개), 부정 주된 이유 -, 긍정 주된 이유 AI와 무관한 반응(광고 내용·이유 없음)\n[주의] 모델 인물, 배경·연출 일부 값은 사례가 1개뿐이라 그 사례 하나의 관찰 결과입니다. AI를 쓴 부분 때문에 반응이 달라졌다고 일반화할 수 없습니다.\n\n전체 AI 영상 광고 중에서도 MBC 선거방송 카운트다운 영상은 긍정 반응이 많았으나, 부정 댓글은 AI와 무관한 내용이 주를 이루었다[2].\n\n[주의] 유튜브 댓글은 일부 시청자의 반응이라 실제보다 부정적으로 보일 수 있습니다. 등급·비율은 코드 규칙으로 계산했습니다.",
+    "case_log": [],
+    "cite_problems": [],
+    "compare": {
+      "mode": "feature",
+      "case_ids": [],
+      "by": "ai_part",
+      "by_name": false,
+      "error": null
+    },
+    "dropped": [
+      {
+        "line": "일부만 AI로 만든 광고 사례(배경·연출 일부)인 빙그레 캠페인은 긍정 반응이 매우 높고 부정 반응이 거의 없었으며, 긍정 댓글 대부분이 광고 내용에 대한 호응이었다[7].",
+        "why": "일반화"
+      },
+      {
+        "line": "반면 영상 전체를 AI로 만든 광고들은 부정 반응 비율이 다양하지만, 특히 이니스프리 AI 모델 광고는 부정 반응이 매우 높고 신뢰 하락을 이유로 들었다[6].",
+        "why": "여러 사례 묶음"
+      }
+    ],
+    "source_ids": [
+      "summary_case_02#common#0",
+      "summary_case_06#common#0",
+      "summary_case_08#common#0",
+      "summary_case_09#common#0",
+      "summary_case_10#common#0",
+      "summary_case_01#common#0",
+      "summary_case_07#common#0",
+      "summary_case_04#common#0",
+      "yt_kJQW_2LHbjU#time#6",
+      "yt_kJQW_2LHbjU#time#15",
+      "yt_kJQW_2LHbjU#time#13",
+      "summary_case_05#common#0"
+    ]
+  },
+  {
+    "id": "C05",
+    "scope": null,
+    "refusal": null,
+    "text": "[비교] 질문한 사례의 댓글 반응 (최상위 댓글 기준)\n- 이니스프리 AI 모델 섀도 발색 광고 [1]: 부정 78.5% · 긍정 0.6% (댓글 181개), 부정 주된 이유 신뢰 하락, 긍정 주된 이유 -\n- 시프트업 스텔라 블레이드 '(댓글 원문 비공개)' AI 뮤직비디오 [2]: 부정 58.5% · 긍정 16.5% (댓글 164개), 부정 주된 이유 거부감·어색함, 긍정 주된 이유 AI와 무관한 반응(광고 내용·이유 없음)\n\n이니스프리 사례에서는 AI 모델을 사전 고지 없이 사용해 소비자 신뢰가 크게 떨어졌고, AI 활용으로 인한 비용 절감이 가격 인하로 이어지지 않는 점에 대한 비판이 많았다[1][3]. 시프트업 사례에서는 AI 뮤직비디오의 특유의 어색함과 거부감이 부정 반응의 주요 원인이었으며, 일부는 AI와 무관한 내용으로 부정적 반응을 보였다[2].\n\n[주의] 유튜브 댓글은 일부 시청자의 반응이라 실제보다 부정적으로 보일 수 있습니다. 등급·비율은 코드 규칙으로 계산했습니다.",
+    "case_log": [],
+    "cite_problems": [],
+    "compare": {
+      "mode": "cases",
+      "case_ids": [
+        "case_01",
+        "case_10"
+      ],
+      "by": null,
+      "by_name": false,
+      "error": null
+    },
+    "dropped": [],
+    "source_ids": [
+      "summary_case_01#common#0",
+      "summary_case_10#common#0",
+      "yt_kJQW_2LHbjU#time#13",
+      "yt_kJQW_2LHbjU#time#1",
+      "yt_kJQW_2LHbjU#time#12",
+      "yt_kJQW_2LHbjU#time#14"
+    ]
+  },
+  {
+    "id": "C06",
+    "scope": null,
+    "refusal": null,
+    "text": "[비교] 질문한 사례의 댓글 반응 (최상위 댓글 기준)\n- MBC 선거방송 카운트다운 '소녀 그리고 우리' [1]: 부정 4.9% · 긍정 81.9% (댓글 265개), 부정 주된 이유 AI와 무관한 반응(광고 내용·이유 없음), 긍정 주된 이유 AI와 무관한 반응(광고 내용·이유 없음)\n- 우체국예금 '보답하는 제비' 광고 [2]: 부정 4.1% · 긍정 70.7% (댓글 123개), 부정 주된 이유 거부감·어색함, 긍정 주된 이유 AI와 무관한 반응(광고 내용·이유 없음)\n\nMBC 선거방송 AI 영상은 긍정 댓글에서 감동적이고 완성도가 높다는 반응이 많았고, 부정 댓글은 주로 광고 내용과 무관한 비판이었다[1]. 우체국 AI 광고는 제비 캐릭터가 귀엽고 재미있다는 칭찬이 많았으나, 일부는 거부감과 어색함을 표현했다[2]. 두 사례 모두 긍정 반응의 주된 이유는 AI와 무관한 광고 내용에 대한 호응이었다[1][2].\n\n[주의] 유튜브 댓글은 일부 시청자의 반응이라 실제보다 부정적으로 보일 수 있습니다. 등급·비율은 코드 규칙으로 계산했습니다.",
+    "case_log": [],
+    "cite_problems": [],
+    "compare": {
+      "mode": "cases",
+      "case_ids": [
+        "case_06",
+        "case_08"
+      ],
+      "by": null,
+      "by_name": false,
+      "error": null
+    },
+    "dropped": [],
+    "source_ids": [
+      "summary_case_06#common#0",
+      "summary_case_08#common#0",
+      "yt_wlz7aUiz6WY#time#3",
+      "yt_wlz7aUiz6WY#time#4",
+      "yt_wlz7aUiz6WY#time#1",
+      "yt_wlz7aUiz6WY#time#2"
+    ]
+  },
+  {
+    "id": "U01",
+    "scope": "numbers",
+    "refusal": "numbers",
+    "text": "매출·비용·광고 효과 같은 수치 자료는 이 챗봇의 자료에 없어 답할 수 없습니다. 대신 비슷한 국내 사례의 유튜브 댓글 반응은 보여 드릴 수 있어요.",
+    "case_log": [],
+    "cite_problems": [],
+    "compare": null,
+    "dropped": [],
+    "source_ids": []
+  },
+  {
+    "id": "U02",
+    "scope": "legal",
+    "refusal": null,
+    "text": "[안내] 개별 사안의 합법·위법은 판단하지 않습니다(필요하면 법률 전문가와 상담하세요). 아래는 자료에 있는 일반 기준과 사례 반응입니다.\n\n우리 캠페인에 AI 이미지를 쓰면 고소 위험은 저작권 침해 문제와 관련이 있습니다. AI가 학습한 데이터에 저작권이 있는 이미지가 포함되어 있다면 저작권 침해 소송 가능성이 있습니다[2]. 다만, 현재 법적 기준이 엄격하지 않아 생성형 AI 개발 자체가 어려워질 수 있어 법적 판단은 아직 명확하지 않습니다[2]. 또한, AI 이미지 사용 시 실제 인물과 닮았다면 동의와 허가료 지급이 필요하다는 의견도 있습니다[1]. 따라서 AI 이미지 사용 시 저작권과 인물 초상권 문제를 신중히 검토해야 합니다[1][2].",
+    "case_log": [],
+    "cite_problems": [],
+    "compare": {
+      "mode": null,
+      "case_ids": [],
+      "by": null,
+      "by_name": false,
+      "error": null
+    },
+    "dropped": [],
+    "source_ids": [
+      "yt_kJQW_2LHbjU#time#13",
+      "yt_kJQW_2LHbjU#time#10",
+      "yt_kJQW_2LHbjU#time#4",
+      "yt_kJQW_2LHbjU#time#11",
+      "news_10#common#4"
+    ]
+  },
+  {
+    "id": "U03",
+    "scope": "labeling",
+    "refusal": "labeling",
+    "text": "AI 생성물 표시 의무 규정은 이번 자료에 넣지 않아 답할 수 없습니다. AI 사용을 밝힌 사례와 밝히지 않은 사례의 댓글 반응은 보여 드릴 수 있어요.",
+    "case_log": [],
+    "cite_problems": [],
+    "compare": null,
+    "dropped": [],
+    "source_ids": []
+  },
+  {
+    "id": "U04",
+    "scope": null,
+    "refusal": null,
+    "text": "제공된 자료에서 확인할 수 없습니다.",
+    "case_log": [],
+    "cite_problems": [],
+    "compare": {
+      "mode": null,
+      "case_ids": [],
+      "by": null,
+      "by_name": false,
+      "error": null
+    },
+    "dropped": [],
+    "source_ids": []
+  },
+  {
+    "id": "U05",
+    "scope": "platform",
+    "refusal": "platform",
+    "text": "반응 자료는 유튜브 댓글만 모았기 때문에 다른 플랫폼의 반응은 답할 수 없습니다. 같은 사례의 유튜브 댓글 반응은 보여 드릴 수 있어요.",
+    "case_log": [],
+    "cite_problems": [],
+    "compare": null,
+    "dropped": [],
+    "source_ids": []
+  },
+  {
+    "id": "U06",
+    "scope": "audience",
+    "refusal": "audience",
+    "text": "개인정보 보호를 위해 댓글 작성자 정보를 저장하지 않아 연령·성별별 반응은 나눠 볼 수 없습니다. 사례 전체의 댓글 반응은 보여 드릴 수 있어요.",
+    "case_log": [],
+    "cite_problems": [],
+    "compare": null,
+    "dropped": [],
+    "source_ids": []
+  },
+  {
+    "id": "U07",
+    "scope": "numbers",
+    "refusal": "numbers",
+    "text": "매출·비용·광고 효과 같은 수치 자료는 이 챗봇의 자료에 없어 답할 수 없습니다. 대신 비슷한 국내 사례의 유튜브 댓글 반응은 보여 드릴 수 있어요.",
+    "case_log": [],
+    "cite_problems": [],
+    "compare": null,
+    "dropped": [],
+    "source_ids": []
+  },
+  {
+    "id": "U08",
+    "scope": "future",
+    "refusal": "future",
+    "text": "앞으로의 규제·시장 변화를 전망할 자료는 없습니다. 현재 정부 안내서의 기준(발행일 표시)은 안내해 드릴 수 있어요.",
+    "case_log": [],
+    "cite_problems": [],
+    "compare": null,
+    "dropped": [],
+    "source_ids": []
+  },
+  {
+    "id": "G01",
+    "scope": "legal",
+    "refusal": null,
+    "text": "[안내] 개별 사안의 합법·위법은 판단하지 않습니다(필요하면 법률 전문가와 상담하세요). 아래는 자료에 있는 일반 기준과 사례 반응입니다.\n\nAI로 만든 광고 이미지 같은 AI 산출물은 인간의 창작적 기여가 없으면 저작권 등록이 불가능합니다[4][5]. 저작권 등록은 인간의 사상이나 감정이 표현된 창작물에만 인정되며, AI 자체는 저작자가 될 수 없습니다[4]. 다만, AI 산출물에 사람이 창의적으로 수정·추가 작업을 한 부분에 대해서만 저작권 등록이 가능합니다[4]. AI 산출물을 본인이 직접 창작한 것처럼 허위로 등록하면 법적 처벌을 받을 수 있고, 이미 등록된 경우에도 말소될 수 있습니다[5]. 따라서 AI가 단독으로 만든 광고 이미지는 저작권 등록 대상이 아닙니다[4][5].\n\n[참고] 정부 자료는 발행 시기 기준이라 이후 바뀌었을 수 있어요. 발행일은 출처 목록에서 확인하세요.",
+    "case_log": [],
+    "cite_problems": [],
+    "compare": {
+      "mode": null,
+      "case_ids": [],
+      "by": null,
+      "by_name": false,
+      "error": null
+    },
+    "dropped": [],
+    "source_ids": [
+      "news_10#common#4",
+      "gov_01#common#3",
+      "news_15#common#3",
+      "gov_01#common#27",
+      "gov_01#common#48"
+    ]
+  },
+  {
+    "id": "G02",
+    "scope": "legal",
+    "refusal": null,
+    "text": "[안내] 개별 사안의 합법·위법은 판단하지 않습니다(필요하면 법률 전문가와 상담하세요). 아래는 자료에 있는 일반 기준과 사례 반응입니다.\n\n홍보 포스터 제작 시 저작권 있는 이미지를 AI에 넣고 수정하여 사용하는 경우, 저작권 침해 소지가 있습니다[1]. AI에 저작권 보호 대상 이미지를 무단 입력해 생성된 결과물을 사용하는 것은 복제권 등 저작권 침해가 될 수 있습니다[1]. 따라서 저작권이 있는 이미지를 AI에 넣어 수정 후 사용하는 것은 문제가 될 수 있습니다[1]. 소비자 반응에서도 AI가 저작권을 무단으로 학습해 윤리적 문제가 크다는 지적이 있습니다[3]. 제공된 자료에서 법적 판단이나 구체적 사례 외 자세한 해결책은 확인할 수 없습니다.\n\n[참고] 정부 자료는 발행 시기 기준이라 이후 바뀌었을 수 있어요. 발행일은 출처 목록에서 확인하세요.",
+    "case_log": [],
+    "cite_problems": [],
+    "compare": {
+      "mode": null,
+      "case_ids": [],
+      "by": null,
+      "by_name": false,
+      "error": null
+    },
+    "dropped": [],
+    "source_ids": [
+      "gov_01#common#20",
+      "news_10#common#4",
+      "yt_Svtv24omXyw#time#1",
+      "yt_kJQW_2LHbjU#time#13",
+      "yt_kJQW_2LHbjU#time#8"
+    ]
+  },
+  {
+    "id": "G03",
+    "scope": null,
+    "refusal": null,
+    "text": "AI 학습에 대한 공정이용 판단 시 고려하는 요소는 네 가지로, 이용 목적·성격, 저작물 종류·용도, 이용된 부분의 비중과 중요성, 그리고 저작물 이용이 시장에 미치는 영향이다[1]. 이 네 가지 요소는 종합적으로 판단하며, 하나의 요소가 절대적으로 결정하지는 않는다[1]. 이용 목적과 성격에서는 변형적 이용 여부, 공익성, 영리 목적 여부 등이 중요하게 고려된다[2][5]. 저작물의 종류와 용도, 이용된 부분의 비중과 중요성, 그리고 시장에 미치는 영향도 각각 세부적으로 평가된다[1][2]. 추가로, 저작물 이용의 경위나 방법 등도 판단 요소로 고려될 수 있다[1].\n\n[참고] 정부 자료는 발행 시기 기준이라 이후 바뀌었을 수 있어요. 발행일은 출처 목록에서 확인하세요.",
+    "case_log": [],
+    "cite_problems": [],
+    "compare": {
+      "mode": null,
+      "case_ids": [],
+      "by": null,
+      "by_name": false,
+      "error": null
+    },
+    "dropped": [],
+    "source_ids": [
+      "gov_02#common#17",
+      "gov_02#common#32",
+      "gov_02#common#60",
+      "gov_02#common#61",
+      "gov_02#common#19"
+    ]
+  },
+  {
+    "id": "G04",
+    "scope": "legal",
+    "refusal": null,
+    "text": "[안내] 개별 사안의 합법·위법은 판단하지 않습니다(필요하면 법률 전문가와 상담하세요). 아래는 자료에 있는 일반 기준과 사례 반응입니다.\n\n정부의 AI 학습 공정이용 안내서는 법적 효력이 있는 공식 해석이 아니라 참고자료로서, 법원의 종합적 판단에 따라 공정이용 여부가 결정된다고 명시되어 있습니다[3]. 안내서에 수록된 사례들은 유권해석이 아니며, 향후 법령·판례·기술 변화에 따라 내용이 달라질 수 있다고 안내하고 있습니다[3]. 또한, 공정이용 규정의 적용 여부가 불명확한 상황임을 인정하며, 저작권자로부터 이용허락을 받지 않고 AI 학습에 저작물을 이용할 경우 저작권 침해 가능성이 존재한다고 안내하고 있습니다[5]. 따라서 이 안내서는 법적 구속력이 있는 공식 해석이 아니라 현장의 이해를 돕기 위한 지침서 성격임을 알 수 있습니다[3][5].\n\n[참고] 정부 자료는 발행 시기 기준이라 이후 바뀌었을 수 있어요. 발행일은 출처 목록에서 확인하세요.",
+    "case_log": [],
+    "cite_problems": [],
+    "compare": {
+      "mode": null,
+      "case_ids": [],
+      "by": null,
+      "by_name": false,
+      "error": null
+    },
+    "dropped": [],
+    "source_ids": [
+      "gov_02#common#58",
+      "gov_02#common#61",
+      "gov_02#common#34",
+      "gov_02#common#64",
+      "gov_01#common#10"
+    ]
+  },
+  {
+    "id": "S01",
+    "scope": null,
+    "refusal": null,
+    "text": "AI 광고에 '창작자 일자리' 반발은 AI 학습에 필요한 데이터 사용 제한이 창작자의 권리 보호와 충돌하기 때문입니다. 정부의 저작권 안내서는 창작자 권리 보호를 목적으로 하지만, AI 스타트업은 데이터 사용 제한을 혁신 저해로 받아들입니다[1]. 정부는 AI 생성물 표시제와 징벌적 손해배상제 등 규제를 도입해 허위 광고를 막으려 합니다[1]. 그러나 업계는 규제가 과도하면 창작 활동과 마케팅이 위축될 수 있다고 우려합니다[1]. AI 학습용 데이터 활용과 저작권 보호 사이에서 사회적 합의와 명확한 가이드라인 마련이 시급한 상황입니다[1].",
+    "case_log": [],
+    "cite_problems": [],
+    "compare": {
+      "mode": null,
+      "case_ids": [],
+      "by": null,
+      "by_name": false,
+      "error": null
+    },
+    "dropped": [],
+    "source_ids": [
+      "news_06#common#6",
+      "news_06#common#4",
+      "news_06#common#3",
+      "news_06#common#5",
+      "news_05#common#0"
+    ]
+  },
+  {
+    "id": "S02",
+    "scope": "legal",
+    "refusal": null,
+    "text": "[안내] 개별 사안의 합법·위법은 판단하지 않습니다(필요하면 법률 전문가와 상담하세요). 아래는 자료에 있는 일반 기준과 사례 반응입니다.\n\nAI 모델로 화장품 광고를 만들 때는 소비자들이 AI 모델 사용에 대해 신뢰감이 떨어지고, 실제 제품 효과를 확인하기 어렵다는 반응을 확인해야 합니다[1]. 또한 AI 광고임을 명확히 고지하고, 실제 모델을 참고했다면 허락을 구하는 등 저작권 문제도 검토해야 합니다[1]. 소비자들은 AI 광고로 인해 과대광고나 허위광고 우려를 제기하며, 광고비 절감분만큼 가격 인하를 요구하는 목소리도 있습니다[1]. AI 모델 사용 시 초상권 침해 문제도 고려해야 하지만, 가상의 인물이라면 별도의 초상권 침해는 없다는 의견도 있습니다[1]. 전반적으로 AI 광고는 신뢰성, 투명성, 가격 정책, 저작권 허락 여부를 꼼꼼히 확인해야 합니다[1].",
+    "case_log": [],
+    "cite_problems": [],
+    "compare": {
+      "mode": null,
+      "case_ids": [],
+      "by": null,
+      "by_name": false,
+      "error": null
+    },
+    "dropped": [],
+    "source_ids": [
+      "yt_kJQW_2LHbjU#time#1",
+      "yt_kJQW_2LHbjU#time#6",
+      "yt_kJQW_2LHbjU#time#4",
+      "yt_kJQW_2LHbjU#time#14",
+      "yt_kJQW_2LHbjU#time#10"
+    ]
+  },
+  {
+    "id": "S03",
+    "scope": null,
+    "refusal": null,
+    "text": "게임사들이 AI 뮤직비디오 제작에 반발하는 사례는 AI가 기존 음악 저작물을 무단으로 학습해 유사한 산출물을 만들면서 저작권 침해 우려가 커졌기 때문입니다[4]. AI 학습 데이터에는 원본 저작물이 포함되는데, 이 과정에서 저작권자의 복제권 등 권리가 침해될 수 있어 쟁점이 됩니다[1]. 특히 AI가 기존 가수의 목소리나 곡을 무단 활용해 AI 커버곡을 제작하는 경우 저작권 및 저작인접권 침해 가능성이 높아 문제됩니다[4]. 이에 따라 AI 학습용 데이터 수집과 활용에 대한 적법한 권한 확보가 중요하며, 일부 기업은 권리자와 계약을 체결해 문제를 해결하려는 움직임도 있습니다[3]. 그러나 아직 관련 소송과 법적 판단은 진행 중인 상황입니다[5].\n\n[참고] 정부 자료는 발행 시기 기준이라 이후 바뀌었을 수 있어요. 발행일은 출처 목록에서 확인하세요.",
+    "case_log": [],
+    "cite_problems": [],
+    "compare": {
+      "mode": null,
+      "case_ids": [],
+      "by": null,
+      "by_name": false,
+      "error": null
+    },
+    "dropped": [],
+    "source_ids": [
+      "gov_01#common#6",
+      "gov_01#common#3",
+      "gov_02#common#9",
+      "gov_01#common#21",
+      "gov_01#common#53"
+    ]
+  },
+  {
+    "id": "S04",
+    "scope": null,
+    "refusal": null,
+    "text": "[예상] 근거 부족 — 특징이 2개 이상 같은 사례가 없어 예상하기 어렵습니다.",
+    "case_log": [],
+    "cite_problems": [],
+    "compare": null,
+    "dropped": [],
+    "source_ids": []
+  },
+  {
+    "id": "S05",
+    "scope": null,
+    "refusal": null,
+    "text": "AI로 만든 음악이나 목소리를 광고에 쓰면, 기존 가수의 곡이나 음원을 무단으로 활용할 경우 저작권 및 저작인접권 침해 가능성이 큽니다[1][2]. AI 커버곡 제작 시에는 작곡가, 작사가, 실연자, 음반제작자 등 권리자로부터 사전 이용허락을 받아야 합니다[2]. AI가 특정 가수의 목소리나 스타일을 모방하는 경우에도 퍼블리시티권과 부정경쟁방지법 위반 소지가 있습니다[1][2]. AI 학습에 사용된 음악 저작물이 전체 이용되거나 상업적 이용일 경우 공정이용으로 인정받기 어렵고 저작권 침해 위험이 높습니다[4]. 따라서 광고에 AI 음악이나 목소리를 쓸 때는 저작권과 관련 권리자 허락을 반드시 확인해야 합니다[1][2].\n\n[참고] 정부 자료는 발행 시기 기준이라 이후 바뀌었을 수 있어요. 발행일은 출처 목록에서 확인하세요.",
+    "case_log": [],
+    "cite_problems": [],
+    "compare": {
+      "mode": null,
+      "case_ids": [],
+      "by": null,
+      "by_name": false,
+      "error": null
+    },
+    "dropped": [],
+    "source_ids": [
+      "gov_01#common#21",
+      "gov_01#common#46",
+      "gov_01#common#3",
+      "gov_02#common#43",
+      "gov_01#common#20"
+    ]
+  },
+  {
+    "id": "S06",
+    "scope": null,
+    "refusal": null,
+    "text": "공공기관이 AI로 광고를 만들 때, AI 학습에 공공저작물을 활용하는 경우 공공누리 ‘제0유형’과 ‘AI유형’이 신설되어 조건 없이 또는 일정 조건 하에 자유롭게 이용할 수 있다[2]. 공공저작물의 AI 학습 데이터 개방 활성화를 위해 공공기관 담당자 대상 교육과 홍보도 진행 중이다[2]. AI 학습에 타인의 저작물을 활용할 때는 비영리 연구·교육 목적이나 동일 시장 경쟁이 없는 경우 공정이용으로 인정될 수 있으나, 상업적 이용이나 무단 수집은 공정이용에 해당하지 않는다는 권리자 의견이 있다[1]. AI 개발사는 영리 목적이라도 변형적 이용으로 공정이용이 가능하다고 보지만, 구체적 판단 기준이 불명확해 현장 적용이 어렵다는 의견도 있다[1]. AI 학습 과정에서 저작권 침해 가능성이 있으므로, 저작권 권리정보 확인과 이용허락 계약 체결이 권장된다[2].\n\n[참고] 정부 자료는 발행 시기 기준이라 이후 바뀌었을 수 있어요. 발행일은 출처 목록에서 확인하세요.",
+    "case_log": [],
+    "cite_problems": [],
+    "compare": {
+      "mode": null,
+      "case_ids": [],
+      "by": null,
+      "by_name": false,
+      "error": null
+    },
+    "dropped": [],
+    "source_ids": [
+      "gov_02#common#58",
+      "gov_02#common#45",
+      "gov_02#common#60",
+      "gov_01#common#21",
+      "gov_02#common#62"
+    ]
+  }
+]

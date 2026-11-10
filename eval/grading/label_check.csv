@@ -1,0 +1,101 @@
+﻿sample_id,comment_id,case_id,is_reply,parent_text,text,human_direction,human_reason,memo
+L001,UgzHouQmegzks5Ns6et4AaABAg.AZx-jwGhazbAZzv4tIDTRr,case_10,1,(댓글 원문 비공개),(댓글 원문 비공개),부정,R5,
+L002,UgyPc-qHMumhc6ymk6t4AaABAg,case_06,0,,(댓글 원문 비공개),무관,R0,
+L003,UgzN-WcisvWQUZK524l4AaABAg,case_08,0,,(댓글 원문 비공개),무관,R0,
+L004,Ugxcc4AOG2NwWnxBeuF4AaABAg,case_05,0,,(댓글 원문 비공개),긍정,R8,
+L005,UgzosrK2OSjtikL53pB4AaABAg,case_05,0,,(댓글 원문 비공개),긍정,R8,
+L006,UgyO_5dS1pfSi6EDVMZ4AaABAg,case_05,0,,(댓글 원문 비공개),긍정,R8,
+L007,UgyGOui0dfJPdGdqZKR4AaABAg,case_03,0,,(댓글 원문 비공개),긍정,R8,'광고가 이쁘다'는 부분에서는 R7/'기분이 따뜻'에서는 R8 감지
+L008,UgyIJrYdEuWcy14c1_J4AaABAg,case_09,0,,(댓글 원문 비공개),부정,R0,'노이즈 마케팅 성공'이라는 말이 비꼬는 의도 부정이지만 그 이유가 나오지 않음
+L009,Ugz9MFSPuMOEFEAiVpR4AaABAg.ALnnMBepxbEANNPta0JTEM,case_02,1,(댓글 원문 비공개),(댓글 원문 비공개),무관,R0,parent_text에 대한 단순 반응
+L010,UgyKbaJbrBOWG6D8EC54AaABAg.AM3HmPGwSZ6AM7-18_kvjA,case_01,1,(댓글 원문 비공개),(댓글 원문 비공개),무관,R0,parent_text에 대한 반박이지만 AI 관련 의견에 대한 반박은 아님
+L011,Ugwffkgn2NQhZePGxjF4AaABAg,case_02,0,,(댓글 원문 비공개),긍정,R6,영어 공부 내용 + AI 형식에 대한 복합적인 의견으로 보임
+L012,UgyntSx_IDXYTmHEaCN4AaABAg,case_04,0,,(댓글 원문 비공개),긍정,R8,브랜드 충성심에서 나온 댓글로 보임
+L013,UgySHEl808FEe7eS__F4AaABAg.AWeyqRHZFasAWhToq64gk3,case_09,1,(댓글 원문 비공개),(댓글 원문 비공개),중립,R0,parent_text에 대한 정보 공유
+L014,UgyXmFOi_GP4g3Dibt94AaABAg,case_04,0,,(댓글 원문 비공개),부정,R1,
+L015,UgwLog38u6M-1Mr4MX14AaABAg,case_10,0,,(댓글 원문 비공개),부정,R8,
+L016,UgyeMEXdvU7KPERumDN4AaABAg,case_01,0,,(댓글 원문 비공개),부정,R3,R3과 R4가 동시에 나타남
+L017,UgxeKb3r5YuROub0i4d4AaABAg.AWhFtTCXPk6AWxUNLxliRO,case_09,1,(댓글 원문 비공개),(댓글 원문 비공개),무관,R0,
+L018,UgxFPsAxFS3h9dysYb94AaABAg,case_09,0,,(댓글 원문 비공개),부정,R8,
+L019,UgwmMc5NUJjUS3u-prZ4AaABAg,case_02,0,,(댓글 원문 비공개),긍정,R0,긍정적인 댓글이지만 어느 부분에서 긍정적으로 느꼈는지는 알 수 없음
+L020,UgwhxVMT0q0nfdShz6p4AaABAg,case_04,0,,(댓글 원문 비공개),긍정,R7,
+L021,UgzPCe8JCojJVYkz1bF4AaABAg.A6bYgP0UiMOA7Ey6m4phMN,case_07,1,(댓글 원문 비공개),(댓글 원문 비공개),무관,R0,parent_text에 대한 반박성 댓글이지만 AI 주제는 아님
+L022,Ugx_469uNpdjZ5A7f2h4AaABAg,case_10,0,,(댓글 원문 비공개),부정,R4,
+L023,UgyJLxs4hA42T2qanYJ4AaABAg,case_03,0,,(댓글 원문 비공개),부정,R3,댓글 자체로는 주된 이유를 알 수 없으나 case_03 콘텐츠 자체를 고려했을 때 R3으로 판단
+L024,UgwT8_-t5ul_JQqfekt4AaABAg,case_05,0,,(댓글 원문 비공개),무관,R0,
+L025,UgwrLLvZTtCVvyItk9x4AaABAg,case_08,0,,(댓글 원문 비공개),긍정,R7,
+L026,UgyX5mFmH3OgVu6EhQ54AaABAg,case_02,0,,(댓글 원문 비공개),긍정,R8,
+L027,Ugw2JLocx_S02C5IZ394AaABAg,case_05,0,,(댓글 원문 비공개),긍정,R8,
+L028,Ugz4ZBereGl4f2LqWjt4AaABAg,case_11,0,,(댓글 원문 비공개),긍정,R7,광고 속 특정 AI 캐릭터에 대한 칭찬
+L029,Ugy73NmxI7rN7wIjFst4AaABAg,case_01,0,,(댓글 원문 비공개),부정,R1,
+L030,Ugw_FAFpZI9w6fiLQNN4AaABAg,case_08,0,,(댓글 원문 비공개),무관,R0,
+L031,Ugz0VCmfWhRRnt3oQ3F4AaABAg.ALWyfS7yVVdALZGZQ7vQAj,case_02,1,(댓글 원문 비공개),(댓글 원문 비공개),긍정,R8,
+L032,UgxCzzg_lgZxYr0c4zN4AaABAg,case_06,0,,(댓글 원문 비공개),무관,R0,
+L033,Ugyo5KZniFuJhPAVqaB4AaABAg,case_10,0,,(댓글 원문 비공개),부정,R5,
+L034,UgzYUNkjHRUaV4zo5sV4AaABAg.9rRyXGKdAoH9skPoeU-Bty,case_04,1,(댓글 원문 비공개),(댓글 원문 비공개),부정,R3,
+L035,Ugyjf0GGUmyyR9EnXHx4AaABAg.AVNw12Kw6P_AWDEY7SWUaC,case_11,1,(댓글 원문 비공개),(댓글 원문 비공개),부정,R3,
+L036,Ugwl293R1N3zm5OQuWF4AaABAg,case_01,0,,(댓글 원문 비공개),부정,R1,타 광고 예시를 가져와서 동시에 불만 표현
+L037,Ugx-5jfCN1rjQFSf_WB4AaABAg,case_08,0,,(댓글 원문 비공개),무관,R0,ai 생성 제비에 긍정적인 반응이 섞였으나 댓글의 주목적은 ai와 무관함
+L038,UgwXBZSutLd-Djmc0dt4AaABAg,case_08,0,,(댓글 원문 비공개),긍정,R6,
+L039,UgyHdfTa05cmwXJpYrV4AaABAg,case_04,0,,(댓글 원문 비공개),긍정,R6,
+L040,Ugz0HwczTJCLNP1WWCl4AaABAg,case_02,0,,(댓글 원문 비공개),중립,R0,
+L041,UgyWoDfHs9lsFZ8eqmp4AaABAg,case_06,0,,(댓글 원문 비공개),긍정,R8,
+L042,UgzflDF-c1tgK7RA_tl4AaABAg,case_04,0,,(댓글 원문 비공개),긍정,R8,전체 반응은 R8이지만 '새로운 제작 방식'에서 R6 포함도 가능하다고 봄
+L043,Ugw4Nw6SLXhhXoJCTix4AaABAg,case_01,0,,(댓글 원문 비공개),중립,R0,AI든 실제 촬영 사진이든 둘 다 신뢰성은 떨어진다는 말로 보임 ai에 대해 비교적 긍정/부정이 들어나지 않음
+L044,UgxvhxErizVwM8uUqeN4AaABAg,case_11,0,,(댓글 원문 비공개),무관,R0,
+L045,Ugx87aKETAhdIUd8blR4AaABAg,case_03,0,,(댓글 원문 비공개),긍정,R8,
+L046,UgyhI2fFlgS7qQ580sZ4AaABAg.AJ3t05AiXHLAN6POWRhq9H,case_03,1,(댓글 원문 비공개),(댓글 원문 비공개),무관,R0,
+L047,UgwdAxo7apUBmvDLZnt4AaABAg,case_09,0,,(댓글 원문 비공개),부정,R8,
+L048,UgwEF9ulOp1rlSL5FM54AaABAg,case_03,0,,(댓글 원문 비공개),부정,R3,
+L049,UgyxOpSoxl5vH_ttYXd4AaABAg,case_07,0,,(댓글 원문 비공개),긍정,R8,
+L050,UgxIdHq3YQSNloZPDoh4AaABAg,case_02,0,,(댓글 원문 비공개),긍정,R8,
+L051,UgyllEeg7O8-zkfT6J54AaABAg,case_03,0,,(댓글 원문 비공개),부정,R3,
+L052,UgyTl8-xYEzMyC0Lu0R4AaABAg,case_01,0,,(댓글 원문 비공개),중립,R0,ai 광고든 연출컷이든 똑같다는 의견
+L053,UgxXHHUbw5rWQusOn414AaABAg,case_02,0,,(댓글 원문 비공개),부정,R2,
+L054,Ugz3n6D_FzVZaCAeOvZ4AaABAg,case_05,0,,(댓글 원문 비공개),긍정,R8,
+L055,UgzOtcJZ9Y3yyV3j8It4AaABAg,case_01,0,,(댓글 원문 비공개),부정,R2,
+L056,Ugz2Uaudro5N5NmQhkB4AaABAg,case_09,0,,(댓글 원문 비공개),중립,R8,광고 주제에 대한 의견
+L057,Ugz_Rd9s7ePiFqtYZ854AaABAg,case_01,0,,(댓글 원문 비공개),부정,R4,
+L058,UgzxAfw1CPkuoTqqXLJ4AaABAg,case_08,0,,(댓글 원문 비공개),긍정,R8,
+L059,UgyDD3r-_8dKKfyl5_x4AaABAg,case_04,0,,(댓글 원문 비공개),부정,R8,
+L060,UgzodUBJ58Y6vTP8t5Z4AaABAg,case_10,0,,(댓글 원문 비공개),부정,R3,
+L061,UgwFzvv4MbMR_0Vpo_Z4AaABAg.A6wxArfsX9gAFZ0Znbyvbw,case_07,1,(댓글 원문 비공개),(댓글 원문 비공개),긍정,R8,
+L062,UgzNZ8K3gbfPMacNW9Z4AaABAg,case_11,0,,(댓글 원문 비공개),부정,R1,
+L063,UgwR7ns3PYAhuCtYyVl4AaABAg,case_06,0,,(댓글 원문 비공개),무관,R0,
+L064,UgxWgcjeHnw59k734c94AaABAg,case_05,0,,(댓글 원문 비공개),무관,R0,
+L065,Ugz3T0tEWw2Qp3BcDNZ4AaABAg,case_06,0,,(댓글 원문 비공개),긍정,R7,
+L066,UgxBJggapjfioJBg8s94AaABAg,case_08,0,,(댓글 원문 비공개),긍정,R8,
+L067,UgwKmHdh3AzfKw56QEp4AaABAg.AXsGM0LRHG4AXsRXo_6n3J,case_06,1,(댓글 원문 비공개),(댓글 원문 비공개),무관,R0,
+L068,Ugx4lf4DQVU2vYRxQeV4AaABAg,case_08,0,,(댓글 원문 비공개),긍정,R8,
+L069,UgyL-QkZ9zyQrbVGE8N4AaABAg,case_07,0,,(댓글 원문 비공개),긍정,R8,
+L070,UgwLxiattnesJF-Syvh4AaABAg,case_11,0,,(댓글 원문 비공개),무관,R0,타 광고업체를 언급하며 현 광고를 비꼬지만 판단기준으로 세우기엔 애매해서 무관으로 표시
+L071,Ugz5XkVa2Tf6MIXcwxR4AaABAg,case_09,0,,(댓글 원문 비공개),부정,R8,광고 기획을 비꼼
+L072,UgyWEEXRUHsvbpjdoZJ4AaABAg,case_05,0,,(댓글 원문 비공개),긍정,R8,
+L073,UgxH8TCmpt6yW1vplJl4AaABAg,case_07,0,,(댓글 원문 비공개),긍정,R8,
+L074,Ugz5Mk4k-gI_WXtDo1l4AaABAg,case_06,0,,(댓글 원문 비공개),긍정,R8,
+L075,UgyM9mQ3LY05fvmXdZh4AaABAg,case_11,0,,(댓글 원문 비공개),무관,R0,
+L076,UgwFzvv4MbMR_0Vpo_Z4AaABAg.A6wxArfsX9gA76q79qAK8X,case_07,1,(댓글 원문 비공개),(댓글 원문 비공개),무관,R0,
+L077,Ugw09lPVQSniHGL-xAl4AaABAg.AWfPMXTqqEpAWhHIO2cy3K,case_09,1,(댓글 원문 비공개),(댓글 원문 비공개),부정,R3,
+L078,UgwViMIFxSUPD8YQgxx4AaABAg,case_04,0,,(댓글 원문 비공개),긍정,R7,
+L079,UgzHN-TfF_Kgt0U16Y94AaABAg,case_11,0,,(댓글 원문 비공개),무관,R0,
+L080,Ugzvud3O4u4HjLZLwNN4AaABAg,case_07,0,,(댓글 원문 비공개),긍정,R8,
+L081,UgyFNMUBZnTJAMKBcZp4AaABAg,case_07,0,,(댓글 원문 비공개),긍정,R8,
+L082,Ugx41GqB8Ptbmnfbieh4AaABAg.AZuhMsyQsRMAZxCRtrCr7W,case_10,1,(댓글 원문 비공개),(댓글 원문 비공개),무관,R0,
+L083,UgwyZD-ssEsD90tEC8p4AaABAg.A4yTpVogLiWA569-SALkyX,case_05,1,(댓글 원문 비공개),(댓글 원문 비공개),무관,R0,
+L084,UgzsANgORYkb0-PNRH14AaABAg.9rB8rN_NGrn9rnLM2Vcg-j,case_04,1,(댓글 원문 비공개),(댓글 원문 비공개),무관,R0,
+L085,Ugw2GrVxOAX5EdGehzd4AaABAg.AM6BgzmfjppAM9E5qAhCdX,case_01,1,(댓글 원문 비공개),(댓글 원문 비공개),부정,R1,
+L086,Ugw5KGExMVFJ6oEm_RR4AaABAg,case_06,0,,(댓글 원문 비공개),긍정,R7,
+L087,UgzGPK7hWY6V38OfRRB4AaABAg,case_03,0,,(댓글 원문 비공개),긍정,R8,
+L088,UgzzFqeMM3i1uh2geG54AaABAg.AM04guZndc8AM6Oa6EwBAa,case_01,1,(댓글 원문 비공개),(댓글 원문 비공개),무관,R0,
+L089,UgxZ78IUme7UtAI-vtJ4AaABAg,case_03,0,,(댓글 원문 비공개),긍정,R8,
+L090,UgxyNhhlyzIM9GpCLaZ4AaABAg,case_10,0,,(댓글 원문 비공개),부정,R3,
+L091,UgziDUiOC72c8D0lfct4AaABAg.AVm5OdDmtfmAW0HINu1538,case_11,1,(댓글 원문 비공개),(댓글 원문 비공개),부정,R8,
+L092,UgwvUZroLeUiB4-18FF4AaABAg.AWhwaeI7XUmAWxUBiipo3n,case_09,1,(댓글 원문 비공개),(댓글 원문 비공개),무관,R0,부정적 의견을 가진 parent_text에 반박하나 AI에 관한 내용은 없음
+L093,UgycENj4CbWju_a-rg14AaABAg,case_10,0,,(댓글 원문 비공개),무관,R0,
+L094,UgwvUtAhpThu1uum8Dl4AaABAg.AcKFzFSG-jLAcTgKcO0Tbt,case_10,1,(댓글 원문 비공개),(댓글 원문 비공개),무관,R0,
+L095,Ugz3LfOlw9J4DoC13kx4AaABAg,case_03,0,,(댓글 원문 비공개),긍정,R7,
+L096,UgxoSTVAhCWR-bDW_C94AaABAg,case_07,0,,(댓글 원문 비공개),긍정,R8,
+L097,Ugy2F92qhxzvXQOoHt94AaABAg,case_08,0,,(댓글 원문 비공개),무관,R0,
+L098,UgwiEWvAxyjJTD8pjNJ4AaABAg,case_02,0,,(댓글 원문 비공개),무관,R0,
+L099,Ugyjf0GGUmyyR9EnXHx4AaABAg.AVNw12Kw6P_AWT4hFGYh67,case_11,1,(댓글 원문 비공개),(댓글 원문 비공개),중립,R0,ai를 옹호하지만 광고에 대한 칭찬은 아님
+L100,Ugxx_itn2Sem59uhlJZ4AaABAg,case_06,0,,(댓글 원문 비공개),긍정,R8,

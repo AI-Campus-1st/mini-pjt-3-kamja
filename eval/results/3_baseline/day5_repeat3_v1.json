@@ -1,0 +1,47 @@
+{
+  "tag": "day5_repeat3_v1",
+  "n_runs": 3,
+  "n_items": 43,
+  "scope": {
+    "consistency": 0.349,
+    "unstable_ids": []
+  },
+  "intent": {
+    "consistency": 1.0,
+    "unstable_ids": []
+  },
+  "features_predict": {
+    "consistency": 0.9,
+    "unstable_ids": [
+      "P08"
+    ]
+  },
+  "features_all": {
+    "consistency": 0.884,
+    "unstable_ids": [
+      "G02",
+      "P08",
+      "S03",
+      "U02",
+      "U07"
+    ]
+  },
+  "compare_cmp": {
+    "consistency": 1.0,
+    "unstable_ids": []
+  },
+  "compare_all": {
+    "consistency": 1.0,
+    "unstable_ids": []
+  },
+  "scope_ok_mean": 0.946,
+  "scope_ok_probe": 0.333,
+  "scope_ok_unanswerable": 0.958,
+  "wrong_refusal": 0,
+  "feat_ok_by_run": {
+    "1": 0.6,
+    "2": 0.7,
+    "3": 0.7
+  },
+  "errors": 0
+}

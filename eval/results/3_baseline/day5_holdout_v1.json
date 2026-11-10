@@ -1,0 +1,142 @@
+{
+  "tag": "day5_holdout_v1",
+  "n_cases": 7,
+  "insufficient_rate": 0.429,
+  "neg": {
+    "counts": {
+      "근거 부족": 2,
+      "느슨 일치": 1,
+      "불일치": 3,
+      "비교 불가": 1
+    },
+    "n_judged": 4,
+    "strict": 0.0,
+    "loose": 0.25
+  },
+  "pos": {
+    "counts": {
+      "근거 부족": 2,
+      "비교 불가": 2,
+      "엄격 일치": 3
+    },
+    "n_judged": 3,
+    "strict": 1.0,
+    "loose": 1.0
+  },
+  "rows": [
+    {
+      "case_id": "case_01",
+      "grade": "근거 부족",
+      "similar": [],
+      "neg_actual": "R1",
+      "neg_pred": [],
+      "neg_state": "근거 부족",
+      "pos_actual": null,
+      "pos_pred": [],
+      "pos_state": "비교 불가"
+    },
+    {
+      "case_id": "case_02",
+      "grade": "관찰됨",
+      "similar": [
+        "case_06",
+        "case_08",
+        "case_09",
+        "case_10"
+      ],
+      "neg_actual": "R3",
+      "neg_pred": [
+        "G08",
+        "R3"
+      ],
+      "neg_state": "느슨 일치",
+      "pos_actual": "G08",
+      "pos_pred": [
+        "G08"
+      ],
+      "pos_state": "엄격 일치"
+    },
+    {
+      "case_id": "case_06",
+      "grade": "관찰됨",
+      "similar": [
+        "case_09",
+        "case_02",
+        "case_10"
+      ],
+      "neg_actual": "G08",
+      "neg_pred": [
+        "R3"
+      ],
+      "neg_state": "불일치",
+      "pos_actual": "G08",
+      "pos_pred": [
+        "G08"
+      ],
+      "pos_state": "엄격 일치"
+    },
+    {
+      "case_id": "case_07",
+      "grade": "근거 부족",
+      "similar": [
+        "case_09"
+      ],
+      "neg_actual": null,
+      "neg_pred": [],
+      "neg_state": "비교 불가",
+      "pos_actual": "G08",
+      "pos_pred": [],
+      "pos_state": "근거 부족"
+    },
+    {
+      "case_id": "case_08",
+      "grade": "근거 부족",
+      "similar": [
+        "case_02"
+      ],
+      "neg_actual": "R3",
+      "neg_pred": [],
+      "neg_state": "근거 부족",
+      "pos_actual": "G08",
+      "pos_pred": [],
+      "pos_state": "근거 부족"
+    },
+    {
+      "case_id": "case_09",
+      "grade": "관찰됨",
+      "similar": [
+        "case_06",
+        "case_02",
+        "case_07",
+        "case_10"
+      ],
+      "neg_actual": "G08",
+      "neg_pred": [
+        "R3"
+      ],
+      "neg_state": "불일치",
+      "pos_actual": null,
+      "pos_pred": [],
+      "pos_state": "비교 불가"
+    },
+    {
+      "case_id": "case_10",
+      "grade": "관찰됨",
+      "similar": [
+        "case_02",
+        "case_06",
+        "case_09"
+      ],
+      "neg_actual": "R3",
+      "neg_pred": [
+        "G08"
+      ],
+      "neg_state": "불일치",
+      "pos_actual": "G08",
+      "pos_pred": [
+        "G08"
+      ],
+      "pos_state": "엄격 일치"
+    }
+  ]
+}

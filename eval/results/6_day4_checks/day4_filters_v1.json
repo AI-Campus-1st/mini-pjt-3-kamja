@@ -1,0 +1,110 @@
+[
+  {
+    "id": "P02",
+    "filter": "필터: 2025년 이후",
+    "n_docs": 5,
+    "violations": [],
+    "pred_ok": true,
+    "grade": "관찰됨",
+    "pass": true
+  },
+  {
+    "id": "P02",
+    "filter": "필터: 정부 기준",
+    "n_docs": 5,
+    "violations": [],
+    "pred_ok": true,
+    "grade": "근거 부족",
+    "pass": true
+  },
+  {
+    "id": "P02",
+    "filter": "필터: 식품",
+    "n_docs": 5,
+    "violations": [],
+    "pred_ok": true,
+    "grade": "관찰됨",
+    "pass": true
+  },
+  {
+    "id": "P02",
+    "filter": "필터: 2024년 이후 · 소비자 반응 · 식품",
+    "n_docs": 5,
+    "violations": [],
+    "pred_ok": true,
+    "grade": "관찰됨",
+    "pass": true
+  },
+  {
+    "id": "G01",
+    "filter": "필터: 2025년 이후",
+    "n_docs": 5,
+    "violations": [],
+    "pred_ok": true,
+    "grade": null,
+    "pass": true
+  },
+  {
+    "id": "G01",
+    "filter": "필터: 정부 기준",
+    "n_docs": 5,
+    "violations": [],
+    "pred_ok": true,
+    "grade": null,
+    "pass": true
+  },
+  {
+    "id": "G01",
+    "filter": "필터: 식품",
+    "n_docs": 5,
+    "violations": [],
+    "pred_ok": true,
+    "grade": null,
+    "pass": true
+  },
+  {
+    "id": "G01",
+    "filter": "필터: 2024년 이후 · 소비자 반응 · 식품",
+    "n_docs": 5,
+    "violations": [],
+    "pred_ok": true,
+    "grade": null,
+    "pass": true
+  },
+  {
+    "id": "F01",
+    "filter": "필터: 2025년 이후",
+    "n_docs": 5,
+    "violations": [],
+    "pred_ok": true,
+    "grade": null,
+    "pass": true
+  },
+  {
+    "id": "F01",
+    "filter": "필터: 정부 기준",
+    "n_docs": 5,
+    "violations": [],
+    "pred_ok": true,
+    "grade": null,
+    "pass": true
+  },
+  {
+    "id": "F01",
+    "filter": "필터: 식품",
+    "n_docs": 5,
+    "violations": [],
+    "pred_ok": true,
+    "grade": null,
+    "pass": true
+  },
+  {
+    "id": "F01",
+    "filter": "필터: 2024년 이후 · 소비자 반응 · 식품",
+    "n_docs": 5,
+    "violations": [],
+    "pred_ok": true,
+    "grade": null,
+    "pass": true
+  }
+]

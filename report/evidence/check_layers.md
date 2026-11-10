@@ -1,0 +1,50 @@
+# 구조 검사 결과 (`python -m eval.check_layers`)
+
+- 원자료: `eval/results/check_layers_detail.csv`
+
+## 판정 집계
+
+| 구분 | 정보 | 정보(검색 지표용) | 통과 | 허용(질문 임베딩) |
+|---|---|---|---|---|
+| A 계층 | 0 | 0 | 9 | 2 |
+| B 체인 | 9 | 3 | 1 | 0 |
+| C 개인정보 | 0 | 0 | 2 | 0 |
+| D API 키 | 0 | 0 | 3 | 0 |
+
+## 통과가 아닌 항목
+
+없음
+
+## 전체
+
+| 구분 | 항목 | 판정 | 파일 | 줄 | 내용 |
+|---|---|---|---|---|---|
+| A 계층 | 임베딩 위치 | 허용(질문 임베딩) | rag/retriever.py | 25 | 임베딩 모델 생성: return SentenceTransformer(MODEL)          # 처음 한 번만 불러옴 (약 12초) |
+| A 계층 | 임베딩 위치 | 허용(질문 임베딩) | rag/retriever.py | 39 | 임베딩 계산: emb = _model().encode([q], normalize_embeddings=True).tolist() |
+| A 계층 | app/·rag/ 정적 검사 | 통과 | app/*.py, rag/*.py |  | 수집·인덱서 import, 인덱스·파일 쓰기, 임베딩 생성 없음 |
+| A 계층 | app/ import 경로에 collector·indexer 없음 | 통과 |  |  | 따라간 모듈 16개: app.chat, app.dashboard, app.file_text, app.main, app.plan_tab, rag.chain, rag.compare, rag.features, rag.filters, rag.plan_check, rag.plan_feedback, rag.prompts, rag.reaction, rag.retriever, rag.rewrite, rag.scope |
+| A 계층 | indexer·collector 없이 불러오기 | 통과 | app.chat |  | 불러오기 성공 |
+| A 계층 | indexer·collector 없이 불러오기 | 통과 | app.dashboard |  | 불러오기 성공 |
+| A 계층 | indexer·collector 없이 불러오기 | 통과 | app.file_text |  | 불러오기 성공 |
+| A 계층 | indexer·collector 없이 불러오기 | 통과 | app.plan_tab |  | 불러오기 성공 |
+| A 계층 | indexer·collector 없이 불러오기 | 통과 | rag.chain |  | 불러오기 성공 |
+| A 계층 | 벡터 DB·원문 DB 디스크 저장 | 통과 | store/chroma |  | 있음 |
+| A 계층 | 벡터 DB·원문 DB 디스크 저장 | 통과 | store/docs.db |  | 있음 |
+| B 체인 | app/ → rag/chain.py | 정보 | app/chat.py | 11 | NOT_FOUND, prepare, stream_body |
+| B 체인 | app/ → rag/chain.py | 정보 | app/plan_tab.py | 15 | NOT_FOUND, prepare, stream_body |
+| B 체인 | eval/ → rag/chain.py | 정보 | eval/check_answers.py | 11 | answer |
+| B 체인 | eval/ → rag/chain.py | 정보 | eval/check_filters.py | 7 | retrieve |
+| B 체인 | eval/ → rag/chain.py | 정보 | eval/check_layers.py | 165 | answer |
+| B 체인 | eval/ → rag/chain.py | 정보 | eval/check_multiturn.py | 8 | prepare, stream_body |
+| B 체인 | 체인 밖 검색만 재는 스크립트 | 정보(검색 지표용) | eval/check_refusal.py | 14 | rag.retriever.search |
+| B 체인 | eval/ → rag/chain.py | 정보 | eval/check_stream.py | 11 | prepare, stream_body |
+| B 체인 | 체인 밖 검색만 재는 스크립트 | 정보(검색 지표용) | eval/inspect_fail.py | 10 | rag.retriever.search |
+| B 체인 | 체인 밖 검색만 재는 스크립트 | 정보(검색 지표용) | eval/run_eval.py | 13 | rag.retriever.search |
+| B 체인 | eval/ → rag/chain.py | 정보 | eval/run_eval.py | 31 | retrieve |
+| B 체인 | eval/ → rag/chain.py | 정보 | eval/synth_check.py | 11 | ANSWER_K, retrieve |
+| B 체인 | 챗봇과 평가 하네스가 같은 chain.py | 통과 | rag/chain.py |  | app 2개, eval 7개가 import. answer() = prepare → _body, 화면 = prepare → stream_body(마지막에 answer()와 같은 본문으로 덮어씀) |
+| C 개인정보 | 벡터 DB 메타에 작성자 정보 없음 | 통과 | store/chroma |  | 메타 키 27개 확인 |
+| C 개인정보 | data·store·eval 파일 검사 | 통과 |  |  | 작성자 이름·채널 ID·프로필 열, 학번 파일 이름 없음 |
+| D API 키 | .env가 .gitignore에 있음 | 통과 | .gitignore |  | 있음 |
+| D API 키 | .env가 git에 올라가지 않음 | 통과 | .env |  | 추적 안 됨 |
+| D API 키 | 코드·결과 파일에 키 없음 | 통과 |  |  | OpenAI·Google 키 모양, 키 값 직접 입력 없음 (.env 제외) |

@@ -1,0 +1,14 @@
+﻿id,gold_synth,synth,intent,kinds,both_top3,both_top5
+S01,True,True,other,반응 정부 반응 정부 반응,True,True
+S02,True,True,other,반응 정부 반응 정부 반응,True,True
+S03,True,True,other,반응 정부 반응 정부 반응,True,True
+S04,True,False,predict,반응 반응 반응 반응 반응,False,False
+S05,True,True,other,반응 정부 반응 정부 반응,True,True
+S06,True,True,other,반응 정부 반응 정부 반응,True,True
+W01,True,True,other,반응 정부 반응 정부 반응,True,True
+W02,True,True,other,반응 정부 반응 정부 반응,True,True
+W03,True,False,other,반응 반응 반응 반응 반응,False,False
+W04,True,False,other,반응 반응 반응 반응 반응,False,False
+N01,False,False,other,반응 반응 반응 반응 반응,False,False
+N02,False,False,other,정부 정부 정부 정부 정부,False,False
+N03,False,True,other,반응 정부 반응 정부 반응,True,True

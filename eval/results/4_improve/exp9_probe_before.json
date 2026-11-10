@@ -1,0 +1,20 @@
+{
+  "tag": "exp9_probe_before",
+  "n_runs": 3,
+  "n_items": 6,
+  "ai_part_ok_by_run": {
+    "1": 0.833,
+    "2": 0.833,
+    "3": 0.833
+  },
+  "feat_ok_by_run": {
+    "1": 0.833,
+    "2": 0.833,
+    "3": 0.833
+  },
+  "intent_predict": 1.0,
+  "consistency": 1.0,
+  "unstable_ids": [],
+  "ai_part_ok_mean": 0.833,
+  "feat_ok_mean": 0.833
+}

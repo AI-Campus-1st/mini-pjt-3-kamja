@@ -1,0 +1,22 @@
+# 밝은 테마 고정 + 프리텐다드 글꼴 (app/static 안의 파일을 Streamlit이 직접 제공 → 인터넷 없어도 됨)
+[server]
+enableStaticServing = true
+
+[theme]
+base = "light"
+font = "Pretendard"
+
+[[theme.fontFaces]]
+family = "Pretendard"
+url = "app/static/Pretendard-Regular.woff2"
+weight = 400
+
+[[theme.fontFaces]]
+family = "Pretendard"
+url = "app/static/Pretendard-SemiBold.woff2"
+weight = 600
+
+[[theme.fontFaces]]
+family = "Pretendard"
+url = "app/static/Pretendard-Bold.woff2"
+weight = 700

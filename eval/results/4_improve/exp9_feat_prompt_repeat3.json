@@ -1,0 +1,48 @@
+{
+  "tag": "exp9_feat_prompt_repeat3",
+  "n_runs": 3,
+  "n_items": 43,
+  "scope": {
+    "consistency": 0.977,
+    "unstable_ids": [
+      "S02"
+    ]
+  },
+  "intent": {
+    "consistency": 1.0,
+    "unstable_ids": []
+  },
+  "features_predict": {
+    "consistency": 1.0,
+    "unstable_ids": []
+  },
+  "features_all": {
+    "consistency": 0.86,
+    "unstable_ids": [
+      "F01",
+      "F02",
+      "S03",
+      "S05",
+      "U02",
+      "X03"
+    ]
+  },
+  "compare_cmp": {
+    "consistency": 1.0,
+    "unstable_ids": []
+  },
+  "compare_all": {
+    "consistency": 1.0,
+    "unstable_ids": []
+  },
+  "scope_ok_mean": 0.93,
+  "scope_ok_probe": 0.333,
+  "scope_ok_unanswerable": 0.875,
+  "wrong_refusal": 0,
+  "feat_ok_by_run": {
+    "1": 0.8,
+    "2": 0.8,
+    "3": 0.8
+  },
+  "errors": 0
+}

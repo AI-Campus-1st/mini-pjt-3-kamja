@@ -1,0 +1,36 @@
+{
+  "tag": "exp2b_qualified",
+  "scheme": "time",
+  "qualified": true,
+  "n": 32,
+  "hit1": 0.562,
+  "hit3": 0.625,
+  "mrr10": 0.629,
+  "by_type": {
+    "compare": {
+      "hit1": 0.833,
+      "hit3": 0.833,
+      "rr": 0.833
+    },
+    "fact_policy": {
+      "hit1": 0.5,
+      "hit3": 0.5,
+      "rr": 0.562
+    },
+    "fact_reaction": {
+      "hit1": 1.0,
+      "hit3": 1.0,
+      "rr": 1.0
+    },
+    "predict": {
+      "hit1": 0.4,
+      "hit3": 0.5,
+      "rr": 0.499
+    },
+    "synthesis": {
+      "hit1": 0.167,
+      "hit3": 0.333,
+      "rr": 0.312
+    }
+  }
+}

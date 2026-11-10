@@ -1,0 +1,27 @@
+{
+  "tag": "base",
+  "lab": "eval/label_check.csv",
+  "all": {
+    "n": 96,
+    "direction": 66.7,
+    "reason": 54.2
+  },
+  "top": {
+    "n": 77,
+    "direction": 64.9,
+    "reason": 49.4
+  },
+  "reply": {
+    "n": 19,
+    "direction": 73.7,
+    "reason": 73.7
+  },
+  "invalid_pair": 0,
+  "reason_confusion_top5": {
+    "사람 R8 → GPT R0": 13,
+    "사람 R8 → GPT R6": 4,
+    "사람 R0 → GPT R8": 4,
+    "사람 R3 → GPT R0": 4,
+    "사람 R6 → GPT R0": 2
+  }
+}

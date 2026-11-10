@@ -1,0 +1,22 @@
+{
+  "tag": "deep_plan_r3",
+  "recall": 1.0,
+  "n_ai": 9,
+  "n_found": 9,
+  "wrong": 0,
+  "wrong_by_kind": {},
+  "field_acc": 0.472,
+  "field_acc_by_feat": {
+    "industry": 0.556,
+    "ai_part": 1.0,
+    "disclosed": 0.0,
+    "period": 0.333
+  },
+  "feat_ok": 0.0,
+  "grade_ok": 0.556,
+  "similar_ok": 0.222,
+  "B_n": 7,
+  "B_hit3": 0.429,
+  "B_mrr": 0.446,
+  "B_unfound": 0
+}

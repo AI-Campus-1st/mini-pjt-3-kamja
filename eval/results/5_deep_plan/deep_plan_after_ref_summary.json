@@ -1,0 +1,65 @@
+{
+  "tag": "deep_plan_after_ref_summary",
+  "gold": "eval/plan_gold.jsonl",
+  "n_runs": 3,
+  "recall_by_run": [
+    1.0,
+    1.0,
+    1.0
+  ],
+  "wrong_by_run": [
+    0,
+    0,
+    0
+  ],
+  "field_acc_by_run": [
+    0.861,
+    0.861,
+    0.861
+  ],
+  "feat_ok_by_run": [
+    0.444,
+    0.444,
+    0.444
+  ],
+  "grade_ok_by_run": [
+    1.0,
+    1.0,
+    1.0
+  ],
+  "similar_ok_by_run": [
+    0.889,
+    0.889,
+    0.889
+  ],
+  "B_hit3_by_run": [
+    1.0,
+    1.0,
+    1.0
+  ],
+  "B_mrr_by_run": [
+    1.0,
+    1.0,
+    1.0
+  ],
+  "B_unfound_by_run": [
+    0,
+    0,
+    0
+  ],
+  "recall_mean": 1.0,
+  "wrong_mean": 0.0,
+  "field_acc_mean": 0.861,
+  "feat_ok_mean": 0.444,
+  "grade_ok_mean": 1.0,
+  "similar_ok_mean": 0.889,
+  "B_hit3_mean": 1.0,
+  "B_mrr_mean": 1.0,
+  "B_unfound_mean": 0.0,
+  "A_hit3": 0.429,
+  "A_mrr": 0.446,
+  "full_hit3_ref": 0.429,
+  "verdict_B_vs_A": "B가 낫다",
+  "feat_consistency": 1.0,
+  "feat_unstable": []
+}
